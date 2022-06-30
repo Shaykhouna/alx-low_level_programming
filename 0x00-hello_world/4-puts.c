@@ -4,7 +4,7 @@
  * Puts - This is function print a sentence
  * The sentence is store in the variable helloPuts
  *
- * helloPuts - This function as the first program in C language of this project
+ * main: This function as the first program in C language of this project
  * This is the task four in project C, Hello, World
  *
  * Contain one function, the main one
