@@ -17,9 +17,9 @@ int main(void)
 	float dec;
 
 	printf(" Size of a char: %lu byte(s).\n", (unsigned long)sizeof(mot));
-	printf(" Size of an int: %u.\n", (unsigned short)sizeof(i) " byte(s)");
-	printf(" Size of a long int: %lu.\n", (unsigned int)sizeof(li) " byte(s)");
-	printf(" Size of a long long: %lubyte(s).\n", (unsigned long)sizeof(lli) " byte(s)");
-	printf(" Size of a float: %lu byte(s).\n", (unsigned float)sizeof(lli) " byte(s)");
+	printf(" Size of an int: %u byte(s).\n", (unsigned int)sizeof(i));
+	printf(" Size of a long int: %lu byte(s).\n", (unsigned long int)sizeof(li));
+	printf(" Size of a long long: %llu byte(s).\n", (unsigned long long int)sizeof(lli));
+	printf(" Size of a float: %lu byte(s).\n", (unsigned float)sizeof(dec));
 	return (0);
 }
