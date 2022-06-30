@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-	char mot
-	int i
-	long int li
-	long long int lli
-	float dec
+	char mot;
+	int i;
+	long int li;
+	long long int lli;
+	float dec;
 
 	printf(" Size of a char: %lu", (unsigned long)sizeof(mot), " byte(s)\n");
 	printf(" Size of an int: %lu", (unsigned short)sizeof(i), "byte(s)\n");
