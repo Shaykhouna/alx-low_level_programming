@@ -12,8 +12,8 @@
  */
 int main(void)
 {
-	char helloPuts[] = "\"Programming is like building a multilingual puzzle";
+	char helloPuts[] = "\"Programming is like building a multilingual puzzle"; /* declaration of the variable */
 
-	puts(helloPuts);
+	puts(helloPuts); /* The use case of puts for the project */
 	return (0);
 }
