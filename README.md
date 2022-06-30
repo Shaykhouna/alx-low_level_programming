@@ -1,2 +1,5 @@
-The Guide to utilty of each script in this repository, Good Read :) !!
-0-preprocessor --> runs a C file through the preprocessor and save the result into 'c' file
+This repository is the introductory project on C programming of the ALX Program.
+
+Composed of 
+  -6 Tasks "Mandatory"
+  -2 Advanced Tasks
