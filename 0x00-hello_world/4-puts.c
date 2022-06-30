@@ -3,6 +3,6 @@
 int main()
 {
 	char helloPuts[] = "\"Programming is like building a multilingual puzzle";
-	int puts(helloPuts);
+	int puts(const char* helloPuts);
 	return 0;
 }
