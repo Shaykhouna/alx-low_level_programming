@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - nique fonction of this task
+ * main - unique fonction of this task
  *
- * this program print a sentence done in the task objective, 
- * without using puts only printf
+ * Consist of printing a designed sentence
  *
  * Return: will be 0 if success
  */
