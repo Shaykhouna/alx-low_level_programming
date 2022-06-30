@@ -10,6 +10,8 @@
  * Contain one function, the main one
  * Return: Value zero
  */
+
+/* This is the main function and the only one*/
 int main(void)
 {
 	/* Declaration of the variable */
