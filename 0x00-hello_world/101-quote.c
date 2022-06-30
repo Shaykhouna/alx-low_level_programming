@@ -11,7 +11,8 @@
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\r\n", 50);
+	char w[]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
+	write(1, w, 58);
 
 	return (1);
 }
