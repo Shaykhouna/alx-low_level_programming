@@ -1,8 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 
 /* betty style doc for function main goes there */
+/* betty style doc for function main goes there */
+/**
+ * main - last digit
+ *
+ * this function return the last digit of the random number
+ *
+ * Return: return 0 when success
+ */
 int main(void)
 {
 	int n;
