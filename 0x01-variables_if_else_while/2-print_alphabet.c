@@ -13,6 +13,7 @@ int main(void)
 
 	for (letter = 'A'; letter <= 'Z'; ++letter)
 	{
+		letter = tolower(letter);
 		putchar(letter);
 		putchar("\n")
 	}
