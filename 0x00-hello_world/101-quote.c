@@ -9,7 +9,7 @@
  *
  * Return: Here we go 1 when success
  */
-static inline int
+inline int
 int main(void)
 {
 	char w[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
