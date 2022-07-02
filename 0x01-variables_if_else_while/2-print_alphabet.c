@@ -14,8 +14,11 @@ int main(void)
 
 	for (letter = 'A'; letter <= 'Z'; ++letter)
 	{
+		do
+		{
 		letter = tolower(letter);
 		putchar(letter);
+		}while ('A' <= letter && letter <= 'Z');
 	}
 	return (0);
 }
