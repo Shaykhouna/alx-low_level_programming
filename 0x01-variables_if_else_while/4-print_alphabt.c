@@ -11,12 +11,9 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; ++letter)
+	for (letter = 'a'; letter <= 'z' && letter != 'e' && letter != 'q'; ++letter)
 	{
-		do
-		{
-			putchar(letter);
-		}while (letter != 'Q' || letter != 'E');
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
