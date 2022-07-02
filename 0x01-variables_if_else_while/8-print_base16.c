@@ -11,7 +11,7 @@ int main(void)
 {
 	int num = 0x0;
 
-	for (num = 0x0; num <= 0xF; ++num)
+	for (num = 0; num <= 16; num++)
 	{
 		putchar(num + 'x');
 	}
