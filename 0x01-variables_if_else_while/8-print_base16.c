@@ -20,27 +20,27 @@ int main(void)
 	{
 		if (num == 10)
 		{
-			letter = 'A';
+			letter = 'a';
 		}
 		else if (num == 11)
 		{
-			letter = 'B';
+			letter = 'b';
 		}
 		else if (num == 12)
 		{
-			letter = 'C';
+			letter = 'c';
 		}
 		else if (num == 13)
 		{
-			letter = 'D';
+			letter = 'd';
 		}
 		else if (num == 14)
 		{
-			letter = 'E';
+			letter = 'e';
 		}
 		else if (num == 15)
 		{
-			letter = 'F';
+			letter = 'f';
 		}
 		putchar(letter);
 	}
