@@ -10,7 +10,7 @@
 int main(void)
 {
 	int num = 0x0;
-	char lette;r
+	char letter;
 
 	for (num = 0; num < 10; num++)
 	{
