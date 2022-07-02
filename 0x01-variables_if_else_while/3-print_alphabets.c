@@ -3,7 +3,7 @@
 /**
  * main - Alphabet
  *
- * this program print the letter of the alphabet
+ * this program print the alphabet in lower and upper case
  *
  * Return: return 0 when success
  */
