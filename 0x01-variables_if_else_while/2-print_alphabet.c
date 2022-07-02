@@ -12,13 +12,9 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		do {
-		letter = tolower(letter);
 		putchar(letter);
-		getchar();
-		} while ('A' <= letter && letter <= 'Z');
 	}
 	return (0);
 }
