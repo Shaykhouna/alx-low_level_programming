@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Alphabet
@@ -11,10 +12,12 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'A'; letter <= 'Z'; ++letter)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
-		letter = tolower(letter);
+	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+	{
 		putchar(letter);
 	}
 	return (0);
