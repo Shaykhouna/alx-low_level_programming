@@ -17,6 +17,7 @@ int main(void)
 		do {
 		letter = tolower(letter);
 		putchar(letter);
+		putchar('\n);
 		} while ('A' <= letter && letter <= 'Z');
 	}
 	return (0);
