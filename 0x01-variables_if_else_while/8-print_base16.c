@@ -10,34 +10,39 @@
 int main(void)
 {
 	int num = 0x0;
+	char letter
 
-	for (num = 0x0; num <= 0x10; num++)
+	for (num = 0; num < 10; num++)
+	{
+		putchar(num + '0')
+	}
+	for (num = 10; num < 16; num++)
 	{
 		if (num == 10)
 		{
-			num = 'A';
+			letter = 'A';
 		}
 		else if (num == 11)
-                {
-                        num = 'B';
+		{
+			letter = 'B';
 		}
 		else if (num == 12)
-                {
-                        num = 'C';
-                }
+		{
+			letter = 'C';
+		}
 		else if (num == 13)
-                {
-                        num = 'D';
-                }
+		{
+			letter = 'D';
+		}
 		else if (num == 14)
-                {
-                        num = 'E';
-                }
+		{
+			letter = 'E';
+		}
 		else if (num == 15)
-                {
-                        num = 'F';
-                }
-		putchar(num);
+		{
+			letter = 'F';
+		}
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
