@@ -14,7 +14,6 @@ int main(void)
 	char w[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	fwrite(w, 59, 1, stderr);
-	exit(EXIT_FAILURE);
 
 	return (1);
 }
