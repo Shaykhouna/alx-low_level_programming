@@ -18,7 +18,7 @@ int main(void)
 		for (num2 = 0; num2 <= 9; num2++)
 		{
 			comb = num1 && num2;
-			putchar(comb, '0');
+			putchar(comb + '0');
 		}
 	}
 	return (0);
