@@ -19,7 +19,7 @@ int main(void)
 	}
 	else
 	{
-	fwrite("Anything", 8, 1, stderr);
+	fwrite("[Anything]", 8, 1, stderr);
 	}
 
 	return (1);
