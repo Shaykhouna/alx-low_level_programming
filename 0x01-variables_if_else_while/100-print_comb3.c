@@ -15,8 +15,8 @@ int main(void)
 	int comb1;
 	int comb2;
 
-	comb1 = strcat("num1", "num2");
-	comb2 = strcat("num1", "num2");
+	comb1 <= strcat(num1, num2);
+	comb2 <= strcat(num1, num2);
 	for (num1 = 0; num1 < 9; num1++)
 	{
 		for (num2 = 0; num2 <= 9; num2++)
