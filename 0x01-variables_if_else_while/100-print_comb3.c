@@ -11,7 +11,6 @@ int main(void)
 {
 	int num1;
 	int num2;
-	int comb;
 
 	for (num1 = 0; num1 < 99; num1++)
 	{
