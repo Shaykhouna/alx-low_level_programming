@@ -12,6 +12,7 @@ int main(void)
 {
 	int num1;
 	int num2;
+	int list[];
 
 	for (num1 = 0; num1 < 9; num1++)
 	{
@@ -23,6 +24,8 @@ int main(void)
 			putchar(num2 + '0');
 			putchar(',');
 			putchar(' ');
+			append(list, "'num1''num2'");
+			putchar(list[]);
 			}
 		}
 	}
