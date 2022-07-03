@@ -9,22 +9,16 @@
  */
 int main(void)
 {
-	int num1[] = {0..9};
-	int num2[] = {0..9};
+	int num1;
+	int num2;
 	int comb;
 
-	if (num1 != num2)
+	for (num1 = 0; num1 <= 9; num1++)
 	{
-		comb = {0..9}{0..9};
-	}
-	for (num = 0; num < 99; num++)
-	{
-		if ( ||  )
-		
-		if (num < 99)
+		for (num2 = 0; num2 <= 9; num2++)
 		{
-			putchar(',');
-			putchar(' ');
+			comb = "num1" && "num2";
+			putchar(comb);
 		}	
 	}
 	return (0);
