@@ -12,7 +12,7 @@ int main(void)
 {
 	int num1;
 	int num2;
-	int list[];
+	int list[100];
 
 	for (num1 = 0; num1 < 9; num1++)
 	{
@@ -25,7 +25,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 			append(list, "'num1''num2'");
-			putchar(list[]);
+			putchar(list[100]);
 			}
 		}
 	}
