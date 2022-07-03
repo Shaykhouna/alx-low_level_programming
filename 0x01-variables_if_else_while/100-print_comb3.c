@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <stlib.h>
 /**
  * main - combination of digit
  *
