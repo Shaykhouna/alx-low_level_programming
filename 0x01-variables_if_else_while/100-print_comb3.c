@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	char num1;
-	char num2;
-	char comb;
+	int num1;
+	int num2;
+	int comb;
 
 	for (num1 = 0; num1 <= 9; num1++)
 	{
