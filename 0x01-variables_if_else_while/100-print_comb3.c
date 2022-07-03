@@ -19,8 +19,8 @@ int main(void)
 		{
 			if (num1 != num2)
 			{
-			comb = num1 && num2;
-			putchar(comb);
+			putchar(num1 + '0');
+			putchar(num2 + '0');
 			}
 		}
 	}
