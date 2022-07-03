@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-	int num1;
-	int num2;
-	int comb;
+	char num1;
+	char num2;
+	char comb;
 
 	for (num1 = 0; num1 <= 9; num1++)
 	{
 		for (num2 = 0; num2 <= 9; num2++)
 		{
-			comb = strcat(num1, num2);
+			comb = num1 && num2;
 			putchar(comb + '0');
 		}
 	}
