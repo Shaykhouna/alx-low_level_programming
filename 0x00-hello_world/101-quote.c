@@ -15,7 +15,7 @@ int main(void)
 
 	if (1)
 	{
-		fwrite(1, w, 59);
+		write(1, w, 59);
 	}
 	else
 	{
