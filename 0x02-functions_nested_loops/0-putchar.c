@@ -7,9 +7,12 @@
  *
  * Return: should return 0
  */
-void _putchar(void)
-{
-	char* str = "_putchar";
+int obj = "_putchar";
 
-	putchar(char str);
+void _putchar(char obj)
+{
+	char* str = obj;
+
+	putchar(str);
+	return (1);
 }
