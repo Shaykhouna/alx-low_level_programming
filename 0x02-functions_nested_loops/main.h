@@ -10,11 +10,6 @@
  *
  * Return: return 0 as successfully done!
  */
-int main(void)
-{
-	return (0);
-}
-
-void _putchar(int obj);
+void _putchar(void);
 
 void print_alphabet(void);
