@@ -9,7 +9,7 @@
  */
 void _putchar(void)
 {
-	int str = "_putchar";
+	char* str = "_putchar";
 
 	putchar(str);
 }
