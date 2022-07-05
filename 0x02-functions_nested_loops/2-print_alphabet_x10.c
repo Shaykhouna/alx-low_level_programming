@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alpahabet_x10 - print alphabet
+ * print_alphabet_x10 - print alphabet
  *
  * this program print the alphabet x10
  *
