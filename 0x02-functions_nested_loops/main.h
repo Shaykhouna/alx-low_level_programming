@@ -10,10 +10,6 @@
  *
  * Return: return 0 as successfully done!
  */
-int _putchar(int w)
-{
-	putchar(w);
-	return (0);
-}
+int _putchar(char c);
 
 void print_alphabet(void);
