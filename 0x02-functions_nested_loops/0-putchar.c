@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Putchar
@@ -7,10 +8,10 @@
  *
  * Return: should return 0
  */
-int main(void)
+int main()
 {
-	char obj = "_putchar";
+	char obj = _putchar;
 
-	putchar(obj)
+	putchar(obj);
 	return (0);
 }
