@@ -7,9 +7,9 @@
  *
  * Return: should return 0
  */
-int main(void)
+void _putchar(int str)
 {
-	char* obj = "_putchar";
+	int obj = "_putchar";
 
 	putchar(obj);
 	return (0);

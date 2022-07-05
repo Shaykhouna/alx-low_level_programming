@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "0-puchar.c"
+#include "1-alphabet.c"
 
 /**
  * main - header file
@@ -8,15 +10,11 @@
  *
  * Return: return 0 as successfully done!
  */
- int main(void)
+int main(void)
 {
 	return (0);
 }
 
-int _putchar(char obj)
-{
-	putchar(obj);
-	return (0);
-}
+void _putchar(int obj);
 
-
+void print_alphabet(void);
