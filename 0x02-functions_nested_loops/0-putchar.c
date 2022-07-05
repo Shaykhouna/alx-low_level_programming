@@ -8,9 +8,9 @@
  *
  * Return: should return 0
  */
-int main()
+int main(void)
 {
-	char obj = _putchar;
+	char* obj = "_putchar";
 
 	putchar(obj);
 	return (0);
