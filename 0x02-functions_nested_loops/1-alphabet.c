@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - alphabet game
+ * print_alphabet - alphabet game
  *
  * print alphabet in lower case
  *
