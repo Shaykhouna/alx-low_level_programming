@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - Putchar
@@ -10,7 +9,7 @@
  */
 int main(void)
 {
-	int obj = "_putchar";
+	char* obj = "_putchar";
 
 	putchar(obj);
 	return (0);
