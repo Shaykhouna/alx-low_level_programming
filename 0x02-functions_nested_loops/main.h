@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "0-puchar.c"
+#include "0-putchar.c"
 #include "1-alphabet.c"
 
 /**
