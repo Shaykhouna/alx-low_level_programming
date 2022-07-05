@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - alphabet game
@@ -7,8 +8,6 @@
  *
  * Return: give back 0
  */
-
-//this print the alphabet in lowercase
 void print_alphabet(void)
 {
 	int letter;
