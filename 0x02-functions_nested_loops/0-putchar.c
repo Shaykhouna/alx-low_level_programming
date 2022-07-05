@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	char* obj = "_putchar";
+	int obj = "_putchar";
 
 	putchar(obj);
 	return (0);
