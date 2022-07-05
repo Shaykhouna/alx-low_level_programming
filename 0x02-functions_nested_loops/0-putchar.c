@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Putchar
@@ -7,12 +8,15 @@
  *
  * Return: should return 0
  */
-int obj = "_putchar";
-
-void _putchar(char obj)
+int main(void);
 {
-	char* str = obj;
-
-	putchar(str);
-	return (1);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	return (0);
 }
