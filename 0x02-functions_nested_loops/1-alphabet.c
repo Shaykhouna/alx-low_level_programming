@@ -8,12 +8,14 @@
  * Return: give back 0
  */
 
+//this print the alphabet in lowercase
 void print_alphabet(void)
 {
 	int letter;
 
-	for (letter ='a'; letter <= 'z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(letter);
+		_putchar(letter);
 	}
+	_putchar('\n');
 }
