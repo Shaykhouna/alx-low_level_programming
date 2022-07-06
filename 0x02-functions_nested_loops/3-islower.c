@@ -13,6 +13,10 @@ int _islower(int c)
 	do 
 	{
 		return (1);
-	}while (c >= 97 && c <= 122);
+	}while (c >= 'a' && c <='z');
+	for (c = 0; c <= 96; c++)
+	{
+		return (0);
+	}
 	return (0);
 }
