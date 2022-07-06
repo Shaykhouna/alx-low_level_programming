@@ -19,10 +19,10 @@ void times_table(void)
 			_putchar(row * col);
 		else
 		{
-			_putchar(',');
-			_putchar(' ');
 			for (col = 0; col <= 9; col++)
 			{
+				_putchar(',');
+				_putchar(' ');
 				if (((row * col) / 10) == 0)
 				{
 					_putchar(' ');
