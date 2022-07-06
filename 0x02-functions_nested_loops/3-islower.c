@@ -10,7 +10,7 @@
  */
 int _islower(int c)
 {
-	for (c = 0; c <= 256; c++)
+	for (c = 0; c <= 127; c++)
 	{
 		if (c >= 97 && c <= 122)
 		{
@@ -18,13 +18,9 @@ int _islower(int c)
 		}
 	}
 	return (1);
-	for (c =0; c <= 256; c++)
+	for (c =0; c <= 127; c++)
 	{
-		if (c >= 97 && c <= 122)
-		{
-			return (1);
-		}
-		else
+		if (c >= 0 && c <= 96)
 		{
 			return (0);
 		}
