@@ -14,8 +14,9 @@ int _islower(int c)
 
 	obj = _islower(c);
 	while (obj == 1)
+	{
 		_putchar(obj + '0');
 		_putchar('\n');
 		return (1);
-	end
+	}
 }
