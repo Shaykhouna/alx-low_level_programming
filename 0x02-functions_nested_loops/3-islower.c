@@ -12,11 +12,11 @@ int _islower(int c)
 {
 	for (c = 0; c <= 256; c++)
 	{
-		if (97 <= c <= 122)
+		if (c => 'a' && c <= 'z')
 		{
 			return (1);
 		}
-		else if 
+		else
 		{
 			return (0);
 		}
