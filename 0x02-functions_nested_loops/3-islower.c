@@ -8,9 +8,12 @@
  *
  * Return: 1 when true and 0 when none
  */
-int _islower(int c)
+int main(c)
 {
-	if (_islower(c))
+	int obj;
+	
+	obj = _islower(c)
+	if (obj == 1)
 	{
 		return (1);
 	}
