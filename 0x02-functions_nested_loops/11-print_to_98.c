@@ -13,10 +13,10 @@ void print_to_98(int n)
 {
 	int pos;
 
-	_putchar(n + '0');
+	_putchar(n);
 	if (n > 98)
 	{
-		for (pos = n-1; pos <= 98; pos--)
+		for (pos = n-1; pos >= 98; pos--)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -24,6 +24,11 @@ void print_to_98(int n)
 			{
 				_putchar((pos / 10) + '0');
 				_putchar((pos % 10) + '0');
+			}
+			else
+			{
+				_putchar('9');
+				_putchar('8');
 			}
 
 		}
