@@ -5,7 +5,7 @@
  * _abs - absolute
  *
  * This function that computes the absolute value of an integer
-:x
+ * @n: used as variable
  *
  * Return: 0 when success
  */
