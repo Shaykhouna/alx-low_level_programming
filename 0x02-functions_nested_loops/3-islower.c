@@ -22,6 +22,7 @@ int _islower(int c)
 	{
 		if (c >= 0 && c <= 96)
 		{
+			_putchar(c + '0');
 			return (0);
 		}
 	}
