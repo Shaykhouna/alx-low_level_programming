@@ -20,15 +20,16 @@ void print_to_98(int n)
 		{
 			_putchar(',');
 			_putchar(' ');
-			if (pos != 98)
+			if ((pos != 98) && (pos > 99))
 			{
+				_putchar((pos / 100) + '0');
 				_putchar((pos / 10) + '0');
 				_putchar((pos % 10) + '0');
 			}
 			else
 			{
-				_putchar('9');
-				_putchar('8');
+				_putchar((pos / 10) + '0');
+				_putchar((pos % 10) + '0');
 			}
 
 		}
