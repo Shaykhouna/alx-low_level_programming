@@ -8,14 +8,17 @@
  *
  * Return: 1 when true and 0 when none
  */
-int main(c)
+int main(int c)
 {
 	int obj;
 	
-	obj = _islower(c)
+	obj = _islower(c);
 	if (obj == 1)
 	{
 		return (1);
 	}
 	else
+	{
+		return (0);
+	}
 	return (0);
