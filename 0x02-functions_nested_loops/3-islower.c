@@ -8,12 +8,12 @@
  *
  * Return: 1 when true and 0 when none
  */
-int main(void)
+int _islower(int c)
 {
 	int obj;
-	
-	obj = _islower();
-	if (test == 1)
+
+	obj = _islower(c);
+	if (obj == 1)
 	{
 		return (1);
 	}
