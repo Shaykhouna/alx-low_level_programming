@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,15 +10,5 @@
  */
 int _islower(int c)
 {
-	int res;
-
-	if (_islower(c))
-	{
-		res = 1;
-	}
-	else 
-	{
-		res = 0;
-	}
-	return (res);
+	return (_islower(c));
 }
