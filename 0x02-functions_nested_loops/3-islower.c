@@ -8,10 +8,11 @@
  *
  * Return: 1 when true and 0 when none
  */
-int main(int c)
+int main(void)
 {
 	int obj;
-	
+	int c;
+
 	obj = _islower(c);
 	if (obj == 1)
 	{
