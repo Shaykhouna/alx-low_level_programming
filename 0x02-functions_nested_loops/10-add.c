@@ -10,7 +10,7 @@
  *
  * Return: the value after addition
  */
-int add (int one, int two)
+int add(int one, int two)
 {
 	int res;
 
