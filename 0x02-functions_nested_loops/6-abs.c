@@ -5,6 +5,7 @@
  * _abs - absolute
  *
  * This function that computes the absolute value of an integer
+:x
  *
  * Return: 0 when success
  */
