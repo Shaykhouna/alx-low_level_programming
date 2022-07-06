@@ -15,5 +15,6 @@ int _islower(int c)
 	for (c = 'A'; c <= 'Z'; c++)
 		return (0);
 	for (c = 0; c <= '9'; c++)
+		return (0);
 	return (0);
 }
