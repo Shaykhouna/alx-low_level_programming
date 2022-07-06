@@ -16,15 +16,16 @@ void print_to_98(int n)
 	_putchar(n + '0');
 	if (n > 98)
 	{
-		for (pos = n-1; pos >= 98; pos--)
+		for (pos = n-1; pos <= 98; pos--)
 		{
+			_putchar(',');
+			_putchar(' ');
 			if (pos != 98)
 			{
-				_putchar(',');
-				_putchar(' ');
 				_putchar((pos / 10) + '0');
 				_putchar((pos % 10) + '0');
 			}
+
 		}
 		_putchar('\n');
 	}
