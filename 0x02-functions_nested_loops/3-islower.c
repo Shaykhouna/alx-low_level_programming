@@ -16,9 +16,7 @@ int _islower(int c)
 	{
 		for (ca = 'a'; ca <= 'z'; ca++)
 			return (1);
-	}
-	else
-	{	for (ca = 'A'; ca <= 'Z'; ca++)
+		for (ca = 'A'; ca <= 'Z'; ca++)
 			return (0);
 		for (ca = 0; ca <= 9; ca++)
 			return (0);
