@@ -17,5 +17,7 @@ int _islower(int c)
 			return (1);
 		}
 	}
+	for (c = 0; c <= 96; c++)
+		return (0);
 	return (0);
 }
