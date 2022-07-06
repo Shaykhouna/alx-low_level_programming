@@ -11,6 +11,7 @@
 int _islower(int c)
 {
 	int obj;
+	int c;
 
 	obj = _islower(c);
 	if (obj == 1)
