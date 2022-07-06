@@ -8,9 +8,9 @@
  *
  * Return: 1 when true and 0 when none
  */
-int _islower(c)
+int _islower(int c)
 {
-	if (c = 'a' && c <= 'z')
+	if (c => UC('a') && c <= UC('z'))
 		return (1);
 	return (0);
 }
