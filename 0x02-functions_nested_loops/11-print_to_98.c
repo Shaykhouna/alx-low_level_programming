@@ -23,7 +23,7 @@ void print_to_98(int n)
 			if ((pos != 98) && (pos > 99))
 			{
 				_putchar((pos / 100) + '0');
-				_putchar((pos % 100) + '0');
+				_putchar((((pos * 10) % 100) / 10) + '0');
 				_putchar((pos % 10) + '0');
 			}
 			else
