@@ -21,10 +21,9 @@ void print_to_98(int n)
 			{
 				_putchar((pos / 10) + '0');
 				_putchar((pos % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
-			_putchar(',');
-			_putchar(' ');
-		}
 			else
 				_putchar(pos + '0');
 		}
