@@ -16,14 +16,6 @@ int _islower(int c)
 		{
 			return (1);
 		}
-		else if (c >= 0 && c <= 96)
-		{
-			return (0);
-		}
-		else if (c >= 123 && c <= 127)
-		{
-			return (0);
-		}
 	}
 	return (0);
 }
