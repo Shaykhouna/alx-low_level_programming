@@ -10,5 +10,8 @@
  */
 int _islower(int c)
 {
-	return (_islower(c));
+	int obj;
+
+	obj = _islower(c);
+	_putchar(obj + '0');
 }
