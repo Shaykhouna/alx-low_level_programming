@@ -10,17 +10,15 @@
  */
 int _islower(int c)
 {
-	int obj;
+	int res;
 
-	if ('a' <= c <= 'z')
+	if (_islower(c))
 	{
-		_islower(c) = 1;
-		obj = _islower(c);
+		res = 1;
 	}
 	else 
 	{
-		_islower(c) = 0;
-		obj = _islower(c);
+		res = 0;
 	}
-	return (obj);
+	return (res);
 }
