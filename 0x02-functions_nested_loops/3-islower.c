@@ -10,7 +10,7 @@
  */
 int _islower(int c)
 {
-	for (c = 0; c <= 127; c++)
+	for (c = 97; c <= 127; c++)
 	{
 		if (c >= 97 && c <= 122)
 		{
