@@ -4,7 +4,7 @@
 /**
  * jack_bauer - 24h chrono
  *
- * This function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+ * This function that prints every minute of the day of Jack Bauer
  *
  * Return: as always 0 when success
  */
@@ -20,6 +20,7 @@ void jack_bauer(void)
 			_putchar(hour + '0');
 			_putchar(':');
 			_putchar(minu + '0');
+			_putchar('\n');
 		}
 		minu = 00;
 	}
