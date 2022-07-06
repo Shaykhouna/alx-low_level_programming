@@ -13,11 +13,15 @@ int _islower(int c)
 	int obj;
 
 	obj = _islower(c);
-	while (obj == 1)
+	if (islower(c))
 	{
 		_putchar(obj + '0');
 		_putchar('\n');
-		return (1);
 	}
-	return (0);
+	else
+	{
+		_putchar(obj + '0');
+		_putchar('\n');
+	}
+	return (obj);
 }
