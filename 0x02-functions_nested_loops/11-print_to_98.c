@@ -21,7 +21,7 @@ void print_to_98(int n)
 			if (pos != 98)
 			{
 				_putchar(',');
-				_putchar(' ')
+				_putchar(' ');
 				_putchar((pos / 10) + '0');
 				_putchar((pos % 10) + '0');
 			}
