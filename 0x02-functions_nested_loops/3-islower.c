@@ -16,13 +16,8 @@ int _islower(int c)
 		{
 			return (1);
 		}
-	}
-	return (1);
-	for (c =0; c <= 127; c++)
-	{
-		if (c >= 0 && c <= 96)
+		else if (c =0; c <= 127; c++)
 		{
-			_putchar(c + '0');
 			return (0);
 		}
 	}
