@@ -18,4 +18,16 @@ int _islower(int c)
 		}
 	}
 	return (1);
+	for (c =0; c <= 256; c++)
+	{
+		if (c >= 97; && c <= 122)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+	return (0);
 }
