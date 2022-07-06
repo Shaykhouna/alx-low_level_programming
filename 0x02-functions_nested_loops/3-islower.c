@@ -11,9 +11,7 @@
 int main(void)
 {
 	int obj;
-	int c;
 
-	obj = _islower(c);
 	if (obj == 1)
 	{
 		return (1);
