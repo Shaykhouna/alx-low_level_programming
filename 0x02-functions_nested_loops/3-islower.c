@@ -11,9 +11,16 @@
 int _islower(int c)
 {
 	int obj;
-	int res;
-	
-	obj = _islower(c);
-	res = _putchar(obj +'0');
-	return (res);
+
+	if ('a' <= c <= 'z')
+	{
+		_islower(c) = 1;
+		obj = _islower(c);
+	}
+	else 
+	{
+		_islower(c) = 0;
+		obj = _islower(c);
+	}
+	return (obj);
 }
