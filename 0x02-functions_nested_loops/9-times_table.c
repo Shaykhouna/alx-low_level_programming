@@ -32,9 +32,7 @@ void times_table(void)
 				_putchar(res % 10 + '0');
 			}
 				if (col != 9)
-				{
 					_putchar(',');
-				}
 			}
 		}
 		_putchar('\n');
