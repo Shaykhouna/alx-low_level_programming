@@ -18,38 +18,23 @@ void times_table(void)
 	{
 		for (col = 0; col <= 9; col++)
 		{
-			if (col == 9)
+			res = row * col;
+			if ((res / 10) == 0)
 			{
-				res = row * col;
-				if ((res / 10) == 0)
-				{
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(res + '0');
-				}
-				else
-				{
-					_putchar(' ');
-					_putchar(res / 10 + '0');
-					_putchar(res % 10 + '0');
-				}
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(res + '0');
 			}
 			else
 			{
-				res = row * col;
-				if ((res / 10) == 0)
+				_putchar(' ');
+				_putchar(res / 10 + '0');
+				_putchar(res % 10 + '0');
+			}
+				if (col != 9)
 				{
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(res + '0');
+					_putchar(',');
 				}
-				else
-				{
-					_putchar(' ');
-					_putchar(res / 10 + '0');
-					_putchar(res % 10 + '0');
-				}
-				_putchar(',');
 			}
 		}
 		_putchar('\n');
