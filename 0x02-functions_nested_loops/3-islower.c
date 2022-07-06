@@ -10,13 +10,14 @@
  */
 int _islower(int c)
 {
+	int obj;
 	do 
 	{
-		return (1);
+		obj = 1;;
 	}while (c >= 'a' && c <='z');
 	for (c = 0; c <= 96; c++)
 	{
-		return (0);
+		obj = 0;
 	}
-	return (0);
+	return (obj);
 }
