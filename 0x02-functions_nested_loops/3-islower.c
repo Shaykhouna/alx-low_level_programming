@@ -5,7 +5,7 @@
  * _islower - lowercase
  *
  * this function checks for lowercase character
- * int c: is the variable it takes
+ * @c: is the variable it takes
  *
  * Return: 1 when true and 0 when none
  */
