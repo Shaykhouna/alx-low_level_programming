@@ -11,10 +11,9 @@
 int main(void)
 {
 	int obj;
-	int test;
-
-	test = _islower(obj);
-	if (test = 1)
+	
+	obj = _islower();
+	if (test == 1)
 	{
 		return (1);
 	}
