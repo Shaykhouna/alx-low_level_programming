@@ -10,17 +10,17 @@
  */
 int _islower(int c)
 {
-	int c;
+	int ca;
 
 	if (_islower(c))
 	{
-		for (c = 'a'; c <= 'z'; c++)
+		for (ca = 'a'; ca <= 'z'; ca++)
 			return (1);
 	}
 	else
-	{	for (c = 'A'; c <= 'Z'; c++)
+	{	for (ca = 'A'; ca <= 'Z'; ca++)
 			return (0);
-		for (c = 0; c <= 9; c++)
+		for (ca = 0; ca <= 9; ca++)
 			return (0);
 	}
 	return (0);
