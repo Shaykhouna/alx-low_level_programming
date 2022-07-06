@@ -10,14 +10,9 @@
  */
 int _islower(int c)
 {
-	for (c = 97; c <= 127; c++)
+	do 
 	{
-		if (c >= 97 && c <= 122)
-		{
-			return (1);
-		}
-	}
-	for (c = 0; c <= 96; c++)
-		return (0);
+		return (1);
+	}while (c >= 97 && c <= 122)
 	return (0);
 }
