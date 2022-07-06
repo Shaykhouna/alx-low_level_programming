@@ -13,6 +13,6 @@ int _islower(int c)
 	do 
 	{
 		return (1);
-	}while (c >= 97 && c <= 122)
+	}while (c >= 97 && c <= 122);
 	return (0);
 }
