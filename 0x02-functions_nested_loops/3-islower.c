@@ -10,18 +10,7 @@
  */
 int _islower(int c)
 {
-	int obj;
-
-	obj = _islower(c);
-	if (islower(c))
-	{
-		_putchar(obj + '0');
-		_putchar('\n');
-	}
-	else
-	{
-		_putchar(obj + '0');
-		_putchar('\n');
-	}
-	return (obj);
+	if (c => 'a' && c <= 'z')
+		return (1);
+	return (0);
 }
