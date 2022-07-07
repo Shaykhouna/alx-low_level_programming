@@ -5,6 +5,7 @@
  * print_most_numbers - numbers
  *
  * This function prints the numbers, from 0 to 9, followed by a new line
+ * @c: in function variable
  * 
  * Return: None
  */
