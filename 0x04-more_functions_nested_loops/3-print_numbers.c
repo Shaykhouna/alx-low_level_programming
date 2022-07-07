@@ -10,9 +10,12 @@
  */
 void print_numbers(void)
 {
-	for (c = '0'; c <= '9'; c++)
+	char obj;
+
+	for (c = 0; c <= 9; c++)
 	{
-		_putchar(c + '0');
+		obj = c;
+		_putchar(obj);
 	}
 	_putchar('\n');
 }
