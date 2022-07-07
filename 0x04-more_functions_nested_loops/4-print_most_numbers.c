@@ -11,11 +11,13 @@
 void print_most_numbers(void)
 {
 	int c = 0;
+	int num;
 
 	do {
-		if (c != 2 || c != 4)
+		num = c;
+		if (num != 2 && num != 4)
 			_putchar(c + '0');
 		c++;
-	} while (c < 10);
+	} while (num < 10);
 	_putchar('\n');
 }
