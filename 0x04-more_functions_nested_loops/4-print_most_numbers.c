@@ -13,10 +13,8 @@ void print_most_numbers(void)
 	int c = 0;
 
 	do{
-		while (c != 2 && c != 4)
-		{
+		if (c != 2 || c != 4)
 			_putchar(c + '0');
-		}
 		c++;
 	} while (c < 10);
 	_putchar('\n');
