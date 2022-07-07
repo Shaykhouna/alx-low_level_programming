@@ -16,7 +16,7 @@ void print_most_numbers(void)
 	do {
 		num = c;
 		if (num != 2 && num != 4)
-			_putchar(c + '0');
+			_putchar(num + '0');
 		c++;
 	} while (num < 10);
 	_putchar('\n');
