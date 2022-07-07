@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,7 +14,10 @@ void print_line(int n)
 	if (n > 0)
 	{
 		while (c <= n)
+		{
 			_putchar('_');
+			c++;
+		}
 	}
 	_putchar('\n');
 	return(0);
