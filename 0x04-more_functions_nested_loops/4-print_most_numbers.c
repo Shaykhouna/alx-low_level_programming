@@ -19,6 +19,7 @@ void print_most_numbers(void)
 			_putchar(c + '0');
 		}
 		c++;
-	}while(c <= 9);
+	}while(c < 10);
+
 	_putchar('\n');
 }
