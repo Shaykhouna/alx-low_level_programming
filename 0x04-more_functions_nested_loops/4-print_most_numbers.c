@@ -5,8 +5,7 @@
  * print_most_numbers - numbers
  *
  * This function prints the numbers, from 0 to 9, followed by a new line
- * @c: used in function
- *
+ * 
  * Return: None
  */
 void print_most_numbers(void)
@@ -17,6 +16,6 @@ void print_most_numbers(void)
 	{
 		_putchar(c + '0');
 		c++;
-	} while(c <= 9 && c != 2 && c!=4);
+	}while(c <= 9 && c != 2 && c!=4);
 	_putchar('\n');
 }
