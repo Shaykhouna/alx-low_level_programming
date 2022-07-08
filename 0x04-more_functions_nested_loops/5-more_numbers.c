@@ -15,7 +15,7 @@ void more_numbers(void)
 	int dec = c / 10;
 	int unit = c % 10;
 
-	for (count = 0; count < 11; count++)
+	for (count = 0; count <= 10; count++)
 	{
 		for (c = 0; c <= 14; c++)
 		{
