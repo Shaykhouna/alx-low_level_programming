@@ -12,8 +12,8 @@ void more_numbers(void)
 {
 	int c = 0;
 	int count = 0;
-	int dec = c / 10;
-	int unit = c % 10;
+	int long dec = c / 10;
+	int long unit = c % 10;
 
 	for (count = 0; count <= 10; count++)
 	{
