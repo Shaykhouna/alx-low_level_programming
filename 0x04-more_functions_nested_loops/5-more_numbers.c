@@ -17,11 +17,12 @@ void more_numbers(void)
 
 	for (count = 0; count <= 10; count++)
 	{
-		for (c = 0; c <= 14; c++)
+		while (c <= 14)
 		{
 			if (c > 9)
 				_putchar(dec + '0');
 			_putchar(unit + '0');
+			c++;
 		}
 		_putchar('\n');
 	}
