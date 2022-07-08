@@ -20,4 +20,6 @@ void print_most_numbers(void)
 		}
 		c++;
 	} while (c <= 9);
+	_putchar('\n');
+	return (0);
 }
