@@ -11,14 +11,18 @@
 void more_numbers(void)
 {
 	int c = 0;
+	int count = 0;
 	int dec = c / 10;
 	int unit = c % 10;
 
-	for (c = 0; c <= 14; c++)
+	for (count = 0; c < 11; c++)
 	{
-		if (c > 9)
-			_putchar(dec + '0');
-		_putchar(unit + '0');
+		for (c = 0; c <= 14; c++)
+		{
+			if (c > 9)
+				_putchar(dec + '0');
+			_putchar(unit + '0');
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
