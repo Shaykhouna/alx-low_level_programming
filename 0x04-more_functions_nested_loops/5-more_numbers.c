@@ -21,7 +21,7 @@ void more_numbers(void)
 			{
 				_putchar(c / 10 + '0');
 				continue;
-			
+			}
 			_putchar(c % 10 + '0');
 			c++;
 		}
