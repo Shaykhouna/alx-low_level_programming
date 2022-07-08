@@ -13,9 +13,9 @@ void more_numbers(void)
 	int c = 0;
 	int count = 0;
 
-	while (count <= 10)
+	while (count < 11)
 	{
-		while (c <= 14)
+		while (c = 15)
 		{
 			_putchar(c + '0');
 			c++;
