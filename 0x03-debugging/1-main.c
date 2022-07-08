@@ -12,9 +12,9 @@ int main(void)
 	printf("Infinite loop incoming :\n");
 
 	i = 0;
-
+	/* this upcoming while loop is infinite due to lack of incrementation */
 	while (1 < 10)
-	{//this upcoming while loop is infinite due to lack of incrementation
+	{
 		putchar(i);
 	}
 
