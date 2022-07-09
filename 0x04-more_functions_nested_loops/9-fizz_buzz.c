@@ -22,18 +22,28 @@ int main(void)
 		if (mul3 == 0 && mul5 == 0)
 		{
 			_putchar(mul35);
+			_putchar(' ');
 		}
 		else if (mul5 == 0)
 		{
 			_putchar(multi5);
+			_putchar(' ');
 		}
 		else if (mul3 == 0)
 		{
 			_putchar(multi3);
+			_putchar(' ');
 		}
 		else
+		{
+			if (count > 9)
+			{
+				_putchar(count % 10 + '0');
+				break;
+			}
 			_putchar(count + '0');
-		_putchar(' ');
+			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 }
