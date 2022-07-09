@@ -19,17 +19,17 @@ int main(void)
 
 	for (count = 1; count <= 100; count++)
 	{
-		if (mul3 == 0)
+		if (mul3 == 0 && mul5 == 0)
 		{
-			_putchar(multi3);
+			_putchar(mul35);
 		}
 		else if (mul5 == 0)
 		{
 			_putchar(multi5);
 		}
-		else if (mul3 == 0 && mul5 == 0)
+		else if (mul3 == 0)
 		{
-			_putchar(multi35);
+			_putchar(multi3);
 		}
 		else
 			_putchar(count + '0');
