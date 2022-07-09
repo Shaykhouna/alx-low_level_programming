@@ -17,7 +17,7 @@ int main(void)
 	char multi5 = "Buzz";
 	char mul35 = "FizzBuzz";
 
-	for (count = 0; count <= 100; count++)
+	for (count = 1; count <= 100; count++)
 	{
 		if (mul3 == 0)
 		{
@@ -35,4 +35,5 @@ int main(void)
 			_putchar(count + '0');
 		_putchar(' ');
 	}
+	return (0);
 }
