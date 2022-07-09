@@ -10,12 +10,12 @@
  */
 int main(void)
 {
-	int count;
+	int count = 1;
 	int mul3 = count % 3;
 	int mul5 = count % 5;
-	char multi3 = "Fizz";
-	char multi5 = "Buzz";
-	char mul35 = "FizzBuzz";
+	char multi3 = 'Fizz';
+	char multi5 = 'Buzz';
+	char mul35 = 'FizzBuzz';
 
 	for (count = 1; count <= 100; count++)
 	{
@@ -35,5 +35,5 @@ int main(void)
 			_putchar(count + '0');
 		_putchar(' ');
 	}
-	return (0);
+	_putchar('\n');
 }
