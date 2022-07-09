@@ -9,7 +9,7 @@
  *
  * Return: return 0 when done
  */
-void print_diagonel(int n)
+void print_diagonal(int n)
 {
 	int one;
 	int two;
@@ -17,6 +17,7 @@ void print_diagonel(int n)
 	if (n > 0)
 	{
 		_putchar('\\');
+		_putchar('\n');
 		for (one = 1; one < n; one++)
 		{
 			for (two = 1; two <= one; two++)
