@@ -13,9 +13,9 @@ int main(void)
 	int count = 1;
 	int mul3 = count % 3;
 	int mul5 = count % 5;
-	char multi3 = 'Fizz';
-	char multi5 = 'Buzz';
-	char mul35 = 'FizzBuzz';
+	int multi3 = 'Fizz';
+	int multi5 = 'Buzz';
+	int mul35 = 'FizzBuzz';
 
 	for (count = 1; count <= 100; count++)
 	{
