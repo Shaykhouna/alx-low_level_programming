@@ -5,6 +5,7 @@
  * _strlen - length
  *
  * This function returns the length of a string
+ * @s: used as variable
  *
  * Return: always 0
  */
