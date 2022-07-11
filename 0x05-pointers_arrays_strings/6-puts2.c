@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * puts2 - printer
@@ -12,12 +13,12 @@ void puts2(char *str)
 {
 	char ch = *str;
 	int i = 0;
+	int len = strlen(str);
 
-	while (str[i] != '\0')
+	for (i = 0; i <= len - 1; i+2)
 	{
 		ch = str[i];
 		_putchar(ch);
-		i = i + 2;
 	}
 	_putchar('\n');
 }
