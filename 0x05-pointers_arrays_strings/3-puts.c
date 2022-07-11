@@ -8,7 +8,7 @@
  *
  * Return: none return value
  */
-void _puts(char *str);
+void _puts(char *str)
 {
-	_putchar('str');
+	_putchar(str);
 }
