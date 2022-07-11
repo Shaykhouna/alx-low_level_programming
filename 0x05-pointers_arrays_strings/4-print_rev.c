@@ -15,9 +15,12 @@ void print_rev(char *s)
 	int j = 0;
 	char ch;
 	int len = strlen(s);
-	char str[] = *(*s);
+	int *p;
+	char str;
 	char revstr[1] = *(*s + (-1));
 
+	p = &*s;
+	str = *p;
 	for (i = 1; i <= len-1; i++)
 	{
 		strcat(revstr, str[-i -1]);
