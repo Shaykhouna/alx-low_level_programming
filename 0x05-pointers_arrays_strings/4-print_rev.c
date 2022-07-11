@@ -20,7 +20,7 @@ void print_rev(char *s)
 	revstr[1] = s[-1];
 	for (i = 1; i <= len-1; i++)
 	{
-		strcat(revstr, str[-i -1]);
+		strcat(revstr, s[-i -1]);
 	}
 	while (revstr[j] != '\0')
 	{
