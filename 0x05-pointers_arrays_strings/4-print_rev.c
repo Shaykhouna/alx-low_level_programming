@@ -12,14 +12,21 @@
 void print_rev(char *s)
 {
 	int i = 0;
+	int j = 0;
 	char ch;
-	char revstr[] = strrev(s);;
+	char revstr[];
+	int len;
 
-	while (revstr[i] != '\0')
+	len = strlen(s);
+	for (i = 0; i <= len; i++)
 	{
-		ch = revstr[i];
+		revstr[] = s[-i -1];
+	}
+	while (revstr[j] != '\0')
+	{
+		ch = revstr[j];
 		_putchar(ch);
-		i++;
+		j++;
 	}
 	_putchar('\n');
 }
