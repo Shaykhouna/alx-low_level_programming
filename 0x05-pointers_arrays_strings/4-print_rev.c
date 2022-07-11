@@ -13,9 +13,8 @@ void print_rev(char *s)
 {
 	int i = 0;
 	char ch;
-	char revstr;
+	char revstr[] = strrev(s);;
 
-	revstr = strrev(s);
 	while (revstr[i] != '\0')
 	{
 		ch = revstr[i];
