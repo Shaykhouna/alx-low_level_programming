@@ -15,11 +15,11 @@ void print_rev(char *s)
 	int j = 0;
 	char ch;
 	int len = strlen(s);
-	char revstr[len];
+	int revstr[0];
 
-	for (i = 0; i <= len; i++)
+	for (i = 0; i <= len-1; i++)
 	{
-		revstr[i] = s[-i -1];
+		strcat(revstr, s[-i -1]);
 	}
 	while (revstr[j] != '\0')
 	{
