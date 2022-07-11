@@ -6,12 +6,12 @@
  *
  * This function takes a pointer to an int
  * as parameter and updates the value it points to to 98
- * @*n: as variable
+ * @n: as variable
  *
  * Return: always 0
  */
 void reset_to_98(int *n)
 {
+	int *p = &n;
 	int *n = 98;
-	return (0);
 }
