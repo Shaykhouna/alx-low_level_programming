@@ -17,12 +17,14 @@ void print_rev(char *s)
 	int len = strlen(s);
 	char revstr[1];
 	char str;
+	char *p;
 
+	p = &*s;
 	revstr[1] = s[-1];
 	for (i = 1; i <= len-1; ++i)
 	{
-		str = s(i);
-		strcat(revstr, *(s - i);
+		str = *p;
+		strcat(revstr, str[-i]);
 	}
 	while (revstr[j] != '\0')
 	{
