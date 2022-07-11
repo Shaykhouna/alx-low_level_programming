@@ -21,8 +21,8 @@ void print_rev(char *s)
 	revstr[1] = s[-1];
 	for (i = 1; i <= len-1; ++i)
 	{
-		str = *(s - i);
-		strcat(revstr, str);
+		str = s(i);
+		strcat(revstr, *(s - i);
 	}
 	while (revstr[j] != '\0')
 	{
