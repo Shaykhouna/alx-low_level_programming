@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _puts - printer
@@ -11,6 +12,12 @@
 void _puts(char *str)
 {
 	char ch = *str;
+	int i = 0;
 
-	_putchar(ch);
+	while (str[i] != '\0')
+	{
+		ch = str[i];
+		_putchar(ch);
+		i++;
+	}
 }
