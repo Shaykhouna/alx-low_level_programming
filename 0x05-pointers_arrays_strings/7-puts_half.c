@@ -9,7 +9,7 @@
  *
  * Return: none
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int n = strlen(str);
 	int odd = n % 2;
