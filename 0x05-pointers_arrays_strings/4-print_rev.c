@@ -14,13 +14,13 @@ void print_rev(char *s)
 	int i = 0;
 	int j = 0;
 	char ch;
-	char revstr[];
+	char revstr;
 	int len;
 
 	len = strlen(s);
 	for (i = 0; i <= len; i++)
 	{
-		revstr[] = s[-i -1];
+		revstr = s[-i -1];
 	}
 	while (revstr[j] != '\0')
 	{
