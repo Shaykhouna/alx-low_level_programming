@@ -9,7 +9,7 @@
  * @dest: variable
  * @src: variable
  *
- * Return:
+ * Return: return dest
  */
 char *_strcpy(char *dest, char *src)
 {
