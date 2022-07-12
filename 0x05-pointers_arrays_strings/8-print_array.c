@@ -11,5 +11,14 @@
  */
 void print_array(int *a, int n);
 {
-	
+	int i;
+	int cnt = *a;
+
+	for (i = 0; i < n; i++)
+	{
+		cnt = a[i];
+		_putchar(cnt + '0');
+		_putchar(',');
+	}
+	_putchar('\n');
 }
