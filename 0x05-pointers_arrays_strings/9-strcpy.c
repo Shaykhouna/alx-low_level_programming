@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
  * _strcpy - copier
@@ -12,5 +13,9 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	
+	char str = *src;
+	char rts = *dest;
+
+	strcpy(dest, str);
+	return (rts);
 }
