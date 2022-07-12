@@ -12,5 +12,5 @@
  */
 void rev_string(char *s)
 {
-	*s = print_rev(s);
+	s = print_rev(*s);
 }
