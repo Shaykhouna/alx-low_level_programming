@@ -12,7 +12,7 @@
 void print_array(int *a, int n)
 {
 	int i;
-	int cnt = *a;
+	int long cnt = *a;
 
 	for (i = 0; i < n; i++)
 	{
