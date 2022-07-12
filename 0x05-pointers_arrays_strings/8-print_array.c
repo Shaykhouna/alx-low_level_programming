@@ -12,13 +12,14 @@
 void print_array(int *a, int n)
 {
 	int i;
-	int long cnt = *a;
+	int cnt = *a;
 
 	for (i = 0; i < n; i++)
 	{
 		cnt = a[i];
 		_putchar(cnt);
 		_putchar(',');
+		_putchar(' ');
 	}
 	_putchar('\n');
 }
