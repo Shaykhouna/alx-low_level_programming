@@ -13,6 +13,7 @@
 void rev_string(char *s)
 {
 	int i = 0;
+	int j = 0;
 	char ch = *s;
 	int len = strlen(s);
 	char *str;
@@ -20,7 +21,8 @@ void rev_string(char *s)
 	for (i = len - 1; i >= 0; i--)
 	{
 		ch = s[i];
-		str[i] = ch;
+		str[j] = ch;
+		j++;
 	}
 	s = str;
 	_putchar('\n');
