@@ -13,13 +13,18 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int lens = strlen(src);
-	int lent = strlen(dest);
 	int i = 0;
 
-	for (i = 0; i < n; i++)
+	while (*dest)
+		dest++;
+	while (*src)
 	{
-		dest[lent + i] = src[i];
+		for (i = 0; i < n; i++)
+		{
+			*dest = src[i];
+			dest++;
+			src++;
+		}
 	}
-	return (*dest);
+	return (dest);
 }
