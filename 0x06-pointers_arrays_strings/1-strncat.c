@@ -2,21 +2,22 @@
 #include <string.h>
 
 /**
- * _strcat - concat
+ * _strncat - concatenater
  *
  * This function concatenates two strings
  * @dest: variable one
  * @src: variable two
+ * @n: number of repetition
  *
- * Return: return the result
+ * Return: Always 0
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int len = strlen(src);
+	int lens = strlen(src);
 	int lent = strlen(dest);
 	int i = 0;
 
-	for (i = 0; i <= lenf; i++)
+	for (i = 0; i < n; i++)
 	{
 		dest[lent + i] = src[i];
 	}
