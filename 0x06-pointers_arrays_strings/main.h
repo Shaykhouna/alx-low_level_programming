@@ -9,4 +9,6 @@
  */
 char *_strcat(char *dest, char *src);
 
+char *string_toupper(char *)
 
+char *leet(char *);
