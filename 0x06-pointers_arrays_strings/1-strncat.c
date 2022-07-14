@@ -5,11 +5,11 @@
  * _strncat - concatenater
  *
  * This function concatenates two strings
- * @dest: variable one
- * @src: variable two
- * @n: number of repetition
+ * @dest: string of destination
+ * @src: string source
+ * @n: number of char
  *
- * Return: Always 0
+ * Return: Always pointer dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -21,10 +21,11 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		for (i = 0; i < n; i++)
 		{
-			*dest = src[i];
-			dest++;
+			*dest = *src[i];
 			src++;
+			dest++;
 		}
 	}
+	*dest = '\0';
 	return (dest);
 }
