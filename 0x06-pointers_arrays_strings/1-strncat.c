@@ -8,7 +8,6 @@
  * @dest: string of destination
  * @src: string source
  * @n: number of char
- *
  * Return: Always pointer dest
  */
 char *_strncat(char *dest, char *src, int n)
