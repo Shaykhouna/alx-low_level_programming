@@ -12,7 +12,7 @@ char *leet(char *str)
 {
 	char from[] = "oOiLeEaAtT";
 	char to[] = "01347";
-	int i = ;
+	int i = 0;
 	int j = 0;
 
 	for (i = 0; str[i] != '\0'; i++)
