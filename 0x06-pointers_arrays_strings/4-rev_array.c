@@ -13,19 +13,10 @@
 void reverse_array(int *a, int n)
 {	
 	int i;
-	char *start, *end, temp;
-	int len = strlen(a);
+	int *arr = NULL;
 
-	start = a;
-	end = a;
-	for (i = 0; i < (len - 1); i++)
-		end++;
-	for (i = 0; i < len/2; i++)
-	{
-		temp = *end;
-		*end = *start;
-		*start = temp;
-		start++;
-		end--;
-	}
+	for (i = n; i > 0; i--)
+		*arr = a[i];
+	for (i = 0; i < n; i++)
+		a[i] = arr[i];
 }
