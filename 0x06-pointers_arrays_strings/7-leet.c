@@ -17,7 +17,7 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; from[j] := '\0'; j++)
+		for (j = 0; from[j] != '\0'; j++)
 		{
 			if (str[i] == from[j])
 				str[i] = to[j / 2];
