@@ -9,7 +9,7 @@
  */
 char *_strcat(char *dest, char *src);
 
-char *string_toupper(char *);
+char *string_toupper(char *str);
 
 char *_strncpy(char *dest, char *src, int n);
 
