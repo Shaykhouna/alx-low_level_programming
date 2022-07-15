@@ -9,12 +9,11 @@
  *
  * Return: return the changed string
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	int i = 0;
-
-	if (i >= 'a' && i <= 'z')
+	while (*str)
 	{
-		toupper(i);
+		*str = (*str >= 'a' && *str <= 'z') ? *str-32 : *str;
+		str++;
 	}
 }
