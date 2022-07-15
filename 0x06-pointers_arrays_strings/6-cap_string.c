@@ -8,7 +8,10 @@
  *
  * Return: return the capitalized string
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
+	int i = 0;
+	int j = 0;
 
+	for (i = 0
 }
