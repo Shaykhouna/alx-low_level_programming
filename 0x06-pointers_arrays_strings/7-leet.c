@@ -10,7 +10,7 @@
  */
 char *leet(char *str)
 {
-	char from[] = "oOiIeEaAtT";
+	char from[] = "oOlLeEaAtT";
 	char to[] = "01347";
 	int i = 0;
 	int j = 0;
