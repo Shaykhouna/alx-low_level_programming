@@ -4,9 +4,9 @@
  * leet - encoder
  *
  * This function encodes a string into 1337
- * @: variable
+ * @str: variable to encode
  *
- * Return: Return the encided string
+ * Return: Return the encoded string
  */
 char *leet(char *str)
 {
