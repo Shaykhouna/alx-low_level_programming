@@ -15,7 +15,7 @@ void reverse_array(int *a, int n)
 	int i;
 	int stock;
 
-	for (i = 0; i < n / 2; i++)
+	for (i = 0; i <= n / 2; i++)
 	{
 		temp = a[i];
 		a[i] = a[n - i - 1];
