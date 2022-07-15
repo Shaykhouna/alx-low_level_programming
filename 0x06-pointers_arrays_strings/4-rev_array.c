@@ -17,6 +17,6 @@ void reverse_array(int *a, int n)
 
 	for (i = n - 1; i >= 0; i--)
 		arr[- i - 1] = a[i];
-	for (j = 0; j > n; j++)
+	for (j = 0; j < n; j++)
 		a[j] = arr[j];
 }
