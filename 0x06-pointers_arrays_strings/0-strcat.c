@@ -23,7 +23,6 @@ char *_strcat(char *dest, char *src)
 			for (i = 0; i < len; i++)
 			{
 				*dest = src[i];
-				dest++;
 			}
 		}
 	}
