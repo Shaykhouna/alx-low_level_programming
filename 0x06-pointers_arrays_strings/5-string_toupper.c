@@ -19,6 +19,7 @@ char *string_toupper(char *str)
 			str[i] = ('a' - 'A');
 		i++;
 	}
-	_putchar(str);
+	return (str);
+	_putchar('\n');
 	return (str);
 }
