@@ -18,7 +18,7 @@ char *_memset(char *s, char b, unsigned int n)
 	tmp = &*s;
 	while (i < n)
 	{
-		tmp[i] = 98;
+		tmp[i] = b;
 		i++;
 	}
 	return (s);
