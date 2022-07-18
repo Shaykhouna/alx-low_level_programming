@@ -14,12 +14,14 @@ char *_strchr(char *s, char c)
 {
 	int i;
 	int len = strlen(s);
+	char loc;
 
+	loc = *s;
 	for (i = 0; i < len; i++)
 	{
-		if (c == s[i])
+		if (c == loc[i])
 			return (s[i]);
-		else if (s[i] == '\0')
+		else if (loc[i] == '\0')
 			return (NULL);
 	}
 }
