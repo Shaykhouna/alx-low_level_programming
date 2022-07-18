@@ -4,3 +4,7 @@ THIS IS THE README FILE FOR THIS PROJECT
 Role of the differents functions and programs
 
 0-memset ---> fills the memory with a constant byte
+
+1-memcpy.c ---> copies memory area.
+
+
