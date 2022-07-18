@@ -7,4 +7,6 @@ Role of the differents functions and programs
 
 1-memcpy.c ---> copies memory area.
 
+2-strchr ---> locates a character in a string.
+
 
