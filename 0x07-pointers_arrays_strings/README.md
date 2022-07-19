@@ -13,4 +13,6 @@ Role of the differents functions and programs
 
 4-strpbrk ---> searches a string for any of a set of bytes.
 
+5-strstr ---> locates a substring
+
 
