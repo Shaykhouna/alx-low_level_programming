@@ -12,15 +12,19 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i = 0;
+	int i, j;
 	int sum1 = 0;
 	int sum2 = 0;
 
-	while (i < size)
+	for (row = 0; row < size; row++)
 	{
-		sum1 += a[((i * size)+ i)];
-		sum2 += a[((i * size) + (size - i) - 1)];
-		i++;
+		i = (j * size) + j;
+		sum1 += a[i];
+	}
+	for (j = 1; j <= size; j++)
+	{
+		i = (j * size) - j;
+		sum2 += a[i];
 	}
 	_putchar(sum1 + '0');
 	_putchar(", ");
