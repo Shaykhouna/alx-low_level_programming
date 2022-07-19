@@ -9,4 +9,6 @@ Role of the differents functions and programs
 
 2-strchr ---> locates a character in a string.
 
+3-strspn ---> gets the length of a prefix substring.
+
 
