@@ -17,16 +17,17 @@ void print_diagsums(int *a, int size)
 	int sum1 = 0;
 	int sum2 = 0;
 
-	while (i <= (size * size))
+	while (*a)
 	{
-		sum1= sum1 + a [i][j];
-		i = i + size 1;
+		sum1 = sum1 + a[i][j];
+		i++;
+		j++;
 	}
-
-	while (j < (size * size - 1))
+	j = size -1;
+	for (i = 0; i < size; i++)
 	{
 		sum2 = sum2 + a[i][j];
-		j = j + size - 1;
+		j--;
 	}
 	_putchar(sum1 + '0');
 	_putchar(", ");
