@@ -21,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 		while (accept[j])
 		{
 			if (accept[i] == s[i]
-				len++;
+				loc++;
 			j++;
 		}
 		if (s[i] == ' ')
