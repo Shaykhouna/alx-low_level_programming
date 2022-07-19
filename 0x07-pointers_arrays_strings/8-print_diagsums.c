@@ -12,9 +12,10 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j;
-	int sum1 = 0;
-	int sum2 = 0;
+	int i = 0;
+	int j = 0;
+	int sum1;
+	int sum2;
 
 	for (i = 0; i < size; i++)
 	{
@@ -35,4 +36,4 @@ void print_diagsums(int *a, int size)
 	_putchar(sum1 + '0');
 	_putchar(", ");
 	_putchar(sum2 + '0');
-}
+
