@@ -17,4 +17,6 @@ Role of the differents functions and programs
 
 7-print_chessboard ---> prints the chessboard
 
+8-print_diagsum ---> prints the sum of the two diagonals of a square matrix of integers.
+
 
