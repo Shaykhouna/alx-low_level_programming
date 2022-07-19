@@ -13,21 +13,14 @@
 void print_diagsums(int *a, int size)
 {
 	int i = 0;
-	int j = 0;
 	int sum1 = 0;
 	int sum2 = 0;
 
-	while (a[size][size])
+	while (i < size)
 	{
-		sum1 = sum1 + a[i][j];
+		sum1 += a[((i * size)+ i)];
+		sum2 += a[((i * size) + (size - i) - 1)];
 		i++;
-		j++;
-	}
-	j = size -1;
-	for (i = 0; i < size; i++)
-	{
-		sum2 = sum2 + a[i][j];
-		j--;
 	}
 	_putchar(sum1 + '0');
 	_putchar(", ");
