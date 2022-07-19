@@ -11,4 +11,6 @@ Role of the differents functions and programs
 
 3-strspn ---> gets the length of a prefix substring.
 
+4-strpbrk ---> searches a string for any of a set of bytes.
+
 
