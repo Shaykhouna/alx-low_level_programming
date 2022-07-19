@@ -16,18 +16,23 @@ void print_diagsums(int *a, int size)
 	int sum1 = 0;
 	int sum2 = 0;
 
-	for (row = 0; row < size; row++)
+	for (i = 0; i < size; i++)
 	{
-		i = (j * size) + j;
-		sum1 += a[i];
+		for (j = 0; j < size; j++)
+		{
+			if (i == j)
+			{
+				sum1 = sum1 + a[i][j];
+				break;
+			}
+		}
 	}
-	for (j = 1; j <= size; j++)
+	for (j = size - 1; j >= 0; j--)
 	{
-		i = (j * size) - j;
-		sum2 += a[i];
+		sum2 = sum2 + a[i][j];
+		i++;
 	}
 	_putchar(sum1 + '0');
 	_putchar(", ");
 	_putchar(sum2 + '0');
-	
 }
