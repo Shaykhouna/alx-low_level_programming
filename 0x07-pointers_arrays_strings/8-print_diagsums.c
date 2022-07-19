@@ -14,12 +14,10 @@ void print_diagsums(int *a, int size)
 {
 	int i = 0;
 	int j = 0;
-	int len;
 	int sum1 = 0;
 	int sum2 = 0;
 
-	len = strlen(a);
-	for (i = 0; i < len; i++)
+	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size; j++)
 		{
@@ -27,9 +25,10 @@ void print_diagsums(int *a, int size)
 				sum1= sum1 + a [i][j];
 		}
 	}
+	j = size;
 	for (i = 0; i < len; i++)
 	{
-		j = size - 1;
+		j--;
 		sum2 = sum2 + a[i][j];
 	}
 	_putchar(sum1 + '0');
