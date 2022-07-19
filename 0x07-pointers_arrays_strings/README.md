@@ -15,4 +15,6 @@ Role of the differents functions and programs
 
 5-strstr ---> locates a substring
 
+7-print_chessboard ---> prints the chessboard
+
 
