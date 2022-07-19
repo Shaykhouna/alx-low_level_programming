@@ -19,10 +19,10 @@ char *_strchr(char *s, char c)
 	{
 		if (c != *s)
 			s++;
-		else if (c == '\0')
-			return (NULL);
 		else
 			return (s);
 	}
+	if (c == '\0')
+		return (s);
 	return (NULL);
 }
