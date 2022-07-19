@@ -32,6 +32,7 @@ void print_diagsums(int *a, int size)
 		sum2 = sum2 + a[i][j];
 	}
 	_putchar(sum1 + '0');
+	_putchar(", ");
 	_putchar(sum2 + '0');
 	
 }
