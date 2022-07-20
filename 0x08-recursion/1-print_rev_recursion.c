@@ -14,11 +14,12 @@ void _print_rev_recursion(char *s)
 	int i;
 
 	i = strlen(s) - 1;
-	if (i >= 0)
+	if (s[i] >= s[0])
 	{
 		_putchar(s[i]);
 		i--;
-		_puts_recursion(s[i]);
+		s++;
+		_puts_recursion(s);
 	}
 	else
 		_putchar('\n');
