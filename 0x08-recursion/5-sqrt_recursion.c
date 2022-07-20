@@ -11,13 +11,13 @@
 int _sqrt_recursion(int n)
 {	
 	int root = 0;
-	int root2 = 0;
 
-	root2 = root * root;
 	if (n < 0)
 		return (-1);
-	else if (root2 == n)
-		return (root2);
-	root++;
-	_sqrt_recursion(n);
+	else if (root * root != n)
+	{
+		root++;
+		_sqrt_recursion(n);
+	}
+	return (root);
 }
