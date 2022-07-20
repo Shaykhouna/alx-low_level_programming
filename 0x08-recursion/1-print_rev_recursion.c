@@ -11,16 +11,17 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int i = -1;
+	int i;
+	char temp;
 
-	if (s[i] != s[0])
+	if (*s)
 	{
-		_putchar(s[i]);
-		i = i -1;
+		i--;
+		temp = s[i];
+		_putchar(temp);
+		s--;
 		_print_rev_recursion(s);
 	}
-	else if (s[i] == s[0])
-		_putchar(s[0]);
 	else
 		_putchar('\n');
 }
