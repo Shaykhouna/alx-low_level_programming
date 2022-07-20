@@ -11,4 +11,6 @@ THE DIVERSE FUNCTIONS IN THIS FOLDER
 
 4-pow_recursion -----> returns the value of x raised to the power of y
 
+5-sqrt_recursion ----->  returns the natural square root of a number
+
 
