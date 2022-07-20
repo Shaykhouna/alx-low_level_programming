@@ -5,5 +5,7 @@ THE DIVERSE FUNCTIONS IN THIS FOLDER
 
 1-print_rev_recursion -----> prints a string in reverse
 
+2-strlen_recursion -----> returns the length of a string
 
+3-factorial -----> returns the factorial of a given number
 
