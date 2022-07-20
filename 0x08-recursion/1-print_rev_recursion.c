@@ -13,7 +13,7 @@ void _print_rev_recursion(char *s)
 {
 	int i = -1;
 
-	if (i < 0 && s[i] != NULL)
+	if (i < 0 && s[i] != s[0])
 	{
 		_putchar(s[i]);
 		i = i -1;
