@@ -9,3 +9,6 @@ THE DIVERSE FUNCTIONS IN THIS FOLDER
 
 3-factorial -----> returns the factorial of a given number
 
+4-pow_recursion -----> returns the value of x raised to the power of y
+
+
