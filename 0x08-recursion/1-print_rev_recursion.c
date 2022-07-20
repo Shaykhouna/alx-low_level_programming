@@ -13,12 +13,15 @@ void _print_rev_recursion(char *s)
 {
 	int i = 1;
 	char temp;
+	char *new;
 
 	if (*s)
 	{
 		temp = s[-i];
+		*new = temp;
+		i++;
 		_putchar(temp);
-		_print_rev_recursion(s++);
+		_print_rev_recursion(new);
 	}
 	else
 		_putchar('\n');
