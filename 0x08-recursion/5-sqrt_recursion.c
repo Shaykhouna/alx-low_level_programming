@@ -9,7 +9,7 @@
  * Return: square root of n.
  */
 int _sqrt_recursion(int n)
-{	
+{
 	int root = 0;
 
 	if (n < 0)
@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 	else if (root * root != n)
 	{
 		root++;
-		return (_sqrt_recursion(n));
+		_sqrt_recursion(n);
 	}
 	return (root);
 }
