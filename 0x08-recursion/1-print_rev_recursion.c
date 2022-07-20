@@ -11,13 +11,12 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int i;
+	int i = 1;
 	char temp;
 
 	if (*s)
 	{
-		i--;
-		temp = s[i];
+		temp = s[-i];
 		_putchar(temp);
 		s--;
 		_print_rev_recursion(s);
