@@ -13,6 +13,6 @@ int _sqrt_recursion(int n)
 {
 	int root;
 
-	root = sqrt(double(n);
-		return (int(root));
+	root = sqrt(n);
+		return (root);
 }
