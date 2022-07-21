@@ -1,22 +1,5 @@
-#include "main.h"
-
-/**
- * sqrt_search - Searching
- *
- * this function search for a sqrt
- * @i: check
- * @j: checker
- *
- * Return: sqrt found.
- */
-int sqrt_count(int i, int j)
-{
-	if (j * j == i)
-		return (j);
-	if (j * j > i)
-		return (-1);
-	return (sqrt_search(i, j + 1));
-}
+#include "mainh"
+#include <math.h>
 
 /**
  * _sqrt_recursion - square root
@@ -28,5 +11,8 @@ int sqrt_count(int i, int j)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_search(n, 0));
+	int root;
+
+	root = sqrt(double(n);
+		return (int(root));
 }
