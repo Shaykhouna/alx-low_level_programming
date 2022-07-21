@@ -15,7 +15,7 @@ int sqrt_count(int i, int j)
 		return (j);
 	if (j * j > i)
 		return (-1);
-	return (sqrt_search(i, j + 1));
+	return (sqrt_search(n, j + 1));
 }
 
 /**
@@ -28,5 +28,5 @@ int sqrt_count(int i, int j)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_search(n, 1));
+	return (sqrt_search(n, 0));
 }
