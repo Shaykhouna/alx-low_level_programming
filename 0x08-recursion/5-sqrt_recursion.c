@@ -15,7 +15,7 @@ int sqrt_count(int i, int j)
 		return (j);
 	if (j * j > i)
 		return (-1);
-	return (sqrt_search(n, j + 1));
+	return (sqrt_search(i, j + 1));
 }
 
 /**
