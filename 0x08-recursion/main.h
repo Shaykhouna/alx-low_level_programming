@@ -26,6 +26,6 @@ int _sqrt_recursion(int n);
 
 int is_prime_number(int n);
 
-int sqrt_search(int i, int j);;
+int sqrt_search(int i, int j);
 
 #endif /* MAIN_H */
