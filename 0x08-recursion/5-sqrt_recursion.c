@@ -23,6 +23,6 @@ int _sqrt_recursion(int n)
 	rt = ((rt1 + (n / rt)) / 2);
 	if (rt % 2 != 0 && rt % 3 != 0)
 		return (rt);
-	rt1+;+
+	rt1++;
 	return (_sqrt_recursion(n));
 }
