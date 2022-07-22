@@ -28,4 +28,6 @@ int is_prime_number(int n);
 
 int sqrt_search(int i, int j);
 
+double sqrt(double n);
+
 #endif /* MAIN_H */
