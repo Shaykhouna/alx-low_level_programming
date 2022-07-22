@@ -30,4 +30,8 @@ int sqrt_search(int i, int j);
 
 double sqrt(double n);
 
+int is_palindrome(char *s);
+
+
+
 #endif /* MAIN_H */
