@@ -13,12 +13,15 @@
  */
 int main(int argc, char *argv[])
 {
-	int result;
+	int result = 0;
+	int a = 0;
+	int b = 0;
 
-	if (argc <= 1 || argc >=4)
+	if (argc <= 1 || argc >= 4)
 		printf("Error\n");
-	else
-		result = argv[1] * argv[2];
-		printf("%d\n", result);
+	a = argv[1];
+	b = argv[2];
+	result = a * b;
+	printf("%d\n", result);
 	return (0);
 }
