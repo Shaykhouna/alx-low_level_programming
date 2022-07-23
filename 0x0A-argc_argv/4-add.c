@@ -14,7 +14,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int i = 0;
 	int try = 0;
 
 	if (argc < 2)
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	{
 		if (isdigit(argv[i]) == 0)
 		{
-			printf("Error,\n");
+			printf("Error\n");
 			return (1);
 		}
 		try += atoi(argv[i]);
