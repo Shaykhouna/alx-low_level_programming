@@ -20,13 +20,13 @@ int main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		if (argc == 2)
-		{
 			printf("%d\n", argv[1]);
-			break;
+		else
+		{
+			a = atoi(argv[1]);
+			b = atoi(argv[2]);
+			printf("%d\n", a * b);
 		}
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
 	}
 	else
 		printf("Error\n");
