@@ -11,8 +11,7 @@
  *
  * Return: number of args
  */
-int args(int argc; char *argv[] _attribute_((unused)))
+int args(int argc; char *argv[])
 {
-	printf("%d\n", argc - 1);
-	return (0);
+	return (argc);
 }
