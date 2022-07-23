@@ -30,7 +30,8 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		else
-			try = try + atoi(argv[i]);
+			try = try + use;
 	}
+	printf("%d\n", try);
 	return (0);
 }
