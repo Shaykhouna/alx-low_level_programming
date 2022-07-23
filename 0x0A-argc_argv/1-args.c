@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,6 +12,9 @@
  */
 int args(int argc; char* argv[])
 {
-	printf("%d\n", argc);
+	int args;
+
+	args = argc - 1;
+	printf("%d\n", args);
 	return (0);
 }
