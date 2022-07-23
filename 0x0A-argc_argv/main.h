@@ -14,3 +14,6 @@ int _putchar(char c);
 
 void name(char s);
 
+int main(int argc, char *argv[]);
+
+
