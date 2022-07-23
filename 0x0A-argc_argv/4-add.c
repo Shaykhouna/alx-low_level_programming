@@ -22,8 +22,11 @@ int main(int argc, char *argv[])
 	for (i = 0; i < argc; i++)
 		res = isdigit(atoi(argv[i]);
 		if (res == 0)
+		{
 			printf("Error,\n");
 			return (1);
+		}
+		else
 		try = try * argv[i];
 	return (0);
 }
