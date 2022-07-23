@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		else
-			try = try * atoi(rgv[i]);
+			try = try * atoi(argv[i]);
 	}
 	return (0);
 }
