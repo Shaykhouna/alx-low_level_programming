@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
 {
 	int i, res;
 	int try = 0;
-	int use;
 
 	if (argc < 2)
 		printf("0\n");
@@ -28,8 +27,7 @@ int main(int argc, char *argv[])
 			printf("Error,\n");
 			return (1);
 		}
-		use = atoi(argv[i]);
-		try += use;
+		try += atoi(argv[i]);
 	}
 	printf("%d\n", try);
 	return (0);
