@@ -12,18 +12,18 @@
  *
  * Return: always 0
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	int mult, i;
+	int a = 0;
+	int b = 0;
 
-	res = 1;
-	if (argc < 3)
+	if (argc > 1)
 	{
-		printf("Error\n");
-		return (1);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a * b);
 	}
-	for (i = 1; i < argc; i++)
-		res = res * atoi(argv[i]);
-	printf("%i\n", res);
+	else
+		printf("Error\n");
 	return (0);
 }
