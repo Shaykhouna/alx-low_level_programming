@@ -17,11 +17,14 @@ int main(int argc, char *argv[])
 	int a = 0;
 	int b = 0;
 
-	if (argc <= 1 || argc >= 4)
+	if (argc > 1 && argc < 4)
+	{
+		a = argv[1];
+		b = argv[2];
+		result = a * b;
+		printf("%d\n", result);
+	}
+	else 
 		printf("Error\n");
-	a = argv[1];
-	b = argv[2];
-	result = a * b;
-	printf("%d\n", result);
 	return (0);
 }
