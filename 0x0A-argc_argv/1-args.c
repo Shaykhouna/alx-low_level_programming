@@ -14,9 +14,7 @@
  */
 int main(int argc; char *argv[])
 {
-	int args = argc - 1;
-
-	if (argc != 0)
-		printf("%d\n", args);
+	if (argc > 0)
+		printf("%d\n", argc - 1);
 	return (0);
 }
