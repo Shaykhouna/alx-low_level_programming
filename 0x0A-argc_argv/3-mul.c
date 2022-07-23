@@ -19,6 +19,11 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
+		if (argc == 2)
+		{
+			printf("%d\n", argv[1]);
+			break;
+		}
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
 		printf("%d\n", a * b);
