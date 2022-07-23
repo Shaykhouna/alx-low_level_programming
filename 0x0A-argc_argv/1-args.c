@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * args - arguments
+ * main - arguments
  *
  * This program prints the number of arguments
  * @argc: count
@@ -9,7 +9,7 @@
  *
  * Return: number of args
  */
-int args(int argc; char **argv[] __attribute__((unused)))
+int main(int argc; char **argv[] __attribute__((unused)))
 {
 	int args = argc - 1;
 
