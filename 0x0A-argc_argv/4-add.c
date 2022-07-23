@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 		printf("0\n");
 	for (i = 0; i < argc; i++)
+	{
 		res = isdigit(atoi(argv[i]);
 		if (res == 0)
 		{
@@ -27,6 +28,7 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		else
-		try = try * argv[i];
+			try = try * argv[i];
+	}
 	return (0);
 }
