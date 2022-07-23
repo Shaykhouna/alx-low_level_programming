@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include <ctype.h>
+#include <string.h>
 
 /**
  * main - addition
@@ -13,19 +14,23 @@
  */
 int main(int argc, char* argv[])
 {
-	int i = 0;
-	int multiple;
+	int i, res;
+	unsigned int j; multiple;
 
+	res = 0;
 	for (i = 0; i < argc; i++)
-		if (argc == 1)
-			printf("0\n");
-		else if !(argv[i] >= 0 && argv[i] <= 9)
+	{
+		multiple = strlen(argv[i]);
+		for (j = 0; j < multiple; j++)
 		{
-			printf("Error\n");
-			return (1);
+			if (isdigit(*(argv[i] + j)) == 0)
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-			multiple = 1 * argv[i];
-	printf("%d\n", multiple);
+		res = res + atoi(argv[i]);
+	}
+	printf("%i\n", res);
 	return (0);
 }
