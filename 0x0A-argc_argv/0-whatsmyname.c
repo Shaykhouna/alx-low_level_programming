@@ -12,19 +12,7 @@
  */
 int main(int argc, char *argv[])
 {
-	name(argv[0]);
+	printf("%s\n", argv[argc - 1]);
 	_putchar('\n');
 	return (0)
-}
-
-/**
- * name - name
- *
- * This function return the name
- * 
- * Return: nothing.
- */
-void name(char s)
-{
-	_putchar(s);
 }
