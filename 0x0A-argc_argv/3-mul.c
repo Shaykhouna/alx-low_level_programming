@@ -14,7 +14,7 @@
 int main(int argc, char *argv[])
 {
 	if (argc > 1 && argc < 4)
-		printf("%s\n", argv[1] * argv[2]);
+		printf("%d\n", (int *)argv[1] * (int *)argv[2]);
 	else 
 		printf("Error\n");
 	return (0);
