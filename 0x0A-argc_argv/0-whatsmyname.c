@@ -13,6 +13,8 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i = 0;
+
+	_putchar(argv[i] + "s");
 	return (0)
 }
