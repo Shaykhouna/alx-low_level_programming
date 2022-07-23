@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
 	int try = 0;
 	int use;
 
-	if (argc == 1)
+	if (argc < 2)
 		printf("0\n");
-	for (i = 0; i < argc; i++)
+	for (i = 2; i < argc; i++)
 	{
 		use = atoi(argv[i]);
 		res = isdigit(argv[i]);
