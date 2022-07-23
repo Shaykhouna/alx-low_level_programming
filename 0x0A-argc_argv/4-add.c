@@ -14,15 +14,14 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, res;
+	int i;
 	int try = 0;
 
 	if (argc < 2)
 		printf("0\n");
 	for (i = 1; i < argc; i++)
 	{
-		res = isdigit(argv[i]);
-		if (res == 0)
+		if (isdigit(argv[i]) == 0)
 		{
 			printf("Error,\n");
 			return (1);
