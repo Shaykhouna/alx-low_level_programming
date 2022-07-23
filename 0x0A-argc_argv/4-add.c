@@ -22,14 +22,14 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	for (i = 1; i < argc; i++)
 	{
-		use = atoi(argv[i]);
 		res = isdigit(argv[i]);
-		try += use;
 		if (res == 0)
 		{
 			printf("Error,\n");
 			return (1);
 		}
+		use = atoi(argv[i]);
+		try += use;
 	}
 	printf("%d\n", try);
 	return (0);
