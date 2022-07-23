@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	for (i = 0; i < argc; i++)
 	{
-		try += use;
 		use = atoi(argv[i]);
-		res = isdigit(use);
+		res = isdigit(argv[i]);
+		try += use;
 		if (res == 0)
 		{
 			printf("Error,\n");
