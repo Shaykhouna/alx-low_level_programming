@@ -15,7 +15,6 @@
 int main(int argc, char *argv[])
 {
 	int i, res;
-	int use;
 	int try = 1;
 
 	if (argc == 1)
