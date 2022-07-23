@@ -11,9 +11,8 @@
  *
  * Return: number of args
  */
-int args(int argc; char *argv[])
+int args(int argc; char* argv[])
 {
-	int args = argc - 1;
-
-	return (argc);
+	printf("%d\n", argc);
+	return (0);
 }

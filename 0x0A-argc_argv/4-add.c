@@ -14,6 +14,7 @@
 int main(int argc, char* argv[])
 {
 	int i = 0;
+	int multiple;
 
 	for (i = 0; i < argc; i++)
 		if (argc == 1)
@@ -25,6 +26,6 @@ int main(int argc, char* argv[])
 		}
 		else
 			multiple = 1 * argv[i];
-	printf(("%d\n", multiple);
+	printf("%d\n", multiple);
 	return (0);
 }
