@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	for (i = 0; i < argc; i++)
 	{
+		try += use;
 		use = atoi(argv[i]);
 		res = isdigit(use);
 		if (res == 0)
@@ -29,7 +30,6 @@ int main(int argc, char *argv[])
 			printf("Error,\n");
 			return (1);
 		}
-		try = try + use;
 	}
 	printf("%d\n", try);
 	return (0);
