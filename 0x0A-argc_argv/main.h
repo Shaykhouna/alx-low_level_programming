@@ -1,10 +1,12 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 
 /**
- * main - Header
+ * main - header file
  *
- * This is header file
+ * This is the header file
  *
  * Return: nothing.
  */
@@ -16,4 +18,4 @@ void name(char s);
 
 int args(int argc, char *argv[]);
 
-
+#endif
