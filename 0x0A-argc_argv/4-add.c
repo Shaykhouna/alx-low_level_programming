@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	int i, res;
-	int try = 1;
+	int try = 0;
 
 	if (argc == 1)
 		printf("0\n");
