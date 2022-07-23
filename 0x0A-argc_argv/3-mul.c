@@ -14,16 +14,16 @@
  */
 int main(int argc, char* argv[])
 {
-	int a = 0;
-	int b = 0;
+	int mult, i;
 
-	if (argc > 1 && argc < 4)
+	res = 1;
+	if (argc < 3)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
-	}
-	else 
 		printf("Error\n");
+		return (1);
+	}
+	for (i = 1; i < argc; i++)
+		res = res * atoi(argv[i]);
+	printf("%i\n", res);
 	return (0);
 }
