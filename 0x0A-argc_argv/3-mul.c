@@ -13,17 +13,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int result = 0;
-	int a = 0;
-	int b = 0;
-
 	if (argc > 1 && argc < 4)
-	{
-		a = argv[1];
-		b = argv[2];
-		result = a * b;
-		printf("%d\n", result);
-	}
+		printf("%d\n", argv[1] * argv[2]);
 	else 
 		printf("Error\n");
 	return (0);
