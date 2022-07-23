@@ -26,7 +26,6 @@ int main(int argc, char *argv[])
 	else if (argv == 2)
 		a = atoi(argv[1]);
 		printf("%d\n", a * 1);
-	else
-		printf("Error\n");
+	printf("Error\n");
 	return (0);
 }
