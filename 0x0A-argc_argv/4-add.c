@@ -29,8 +29,7 @@ int main(int argc, char *argv[])
 			printf("Error,\n");
 			return (1);
 		}
-		else
-			try = try + use;
+		try = try + use;
 	}
 	printf("%d\n", try);
 	return (0);
