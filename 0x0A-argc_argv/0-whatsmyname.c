@@ -12,7 +12,6 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc - 1]);
-	_putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0)
 }
