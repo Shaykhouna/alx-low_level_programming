@@ -13,5 +13,7 @@
  */
 int args(int argc; char *argv[])
 {
+	int args = argc - 1;
+
 	return (argc);
 }
