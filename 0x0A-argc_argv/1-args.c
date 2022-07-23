@@ -9,7 +9,7 @@
  *
  * Return: number of args
  */
-int main(int argc; char* argv[])
+int main(int argc; char *argv[])
 {
 	int args = argc - 1;
 
