@@ -18,4 +18,6 @@ void name(char s);
 
 int args(int argc, char *argv[]);
 
+int _atoi(char *s);
+
 #endif
