@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		b = atoi(argv[2]);
 		printf("%d\n", a * b);
 	}
-	else if (argv == 2)
+	else if (argc == 2)
 		a = atoi(argv[1]);
 		printf("%d\n", a * 1);
 	printf("Error\n");
