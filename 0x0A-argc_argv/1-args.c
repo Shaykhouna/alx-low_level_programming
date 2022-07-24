@@ -14,12 +14,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int args = 0;
+	int args = argc - 1;
 
-	if (argc > 0)
-	{
-		args = argc - 1;
-		printf("%d\n", args);
-	}
-	return (0);
+	return (args);
 }
