@@ -16,12 +16,14 @@ int main(int argc, char *argv[])
 {
 	int i = 0;
 	int try = 0;
+	int turn;
 
 	if (argc < 2)
 		printf("0\n");
 	for (i = 1; i < argc; i++)
 	{
-		if (isdigit(argv[i]) != 1)
+		turn = atoi(argv[i]);
+		if (isdigit(turn) != 1)
 		{
 			printf("Error\n");
 			return (1);
