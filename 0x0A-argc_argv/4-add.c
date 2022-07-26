@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	for (i = 1; i < argc; i++)
 	{
-		if (isdigit(atoi(argv[i])) == 1)
+		if (isdigit(atoi(argv[i])))
 			sum += argv[i];
 		else
 		{
