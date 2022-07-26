@@ -16,12 +16,14 @@ int main(int argc, char *argv[])
 {
 	int i = 0;
 	int sum = 0;
+	int check;
 
 	if (argc == 1)
 		printf("0\n");
 	for (i = 1; i < argc; i++)
 	{
-		if (isdigit(atoi(argv[i])))
+		check = atoi(argv[i]);
+		if (isdigit(check))
 			sum += argv[i];
 		else
 		{
