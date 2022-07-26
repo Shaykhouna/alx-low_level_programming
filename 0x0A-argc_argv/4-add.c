@@ -14,22 +14,35 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
-	int try = 0;
-	int turn;
-
-	if (argc < 2)
-		printf("0\n");
-	for (i = 1; i < argc; i++)
+	int sum = 0;
+	while (--argc)
 	{
-		turn = atoi(argv[i]);
-		if (isdigit(turn) != 1)
+		if (isInt(argv[argc]))
 		{
 			printf("Error\n");
 			return (1);
 		}
-		try += atoi(argv[i]);
+		sum += atoi(argv[argc]);
 	}
-	printf("%d\n", try);
+	printf("%i\n", sum);
+	return (0);
+}
+
+/**
+ * isInt - check type
+ * @var: variable to check
+ *
+ * Return: nada
+ */
+int isInt(char *)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		if (s[i] < '0' || s > '9')
+			return (1);
+		i++;
+	}
 	return (0);
 }
