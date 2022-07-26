@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-#include <stdlib.b>
+#include <stdlib.h>
 
 /**
  * str_concat - concatenator
