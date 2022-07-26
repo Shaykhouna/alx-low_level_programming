@@ -19,7 +19,10 @@ char *_strdup(char *str)
 		return (NULL);
 	new = malloc(sizeof(*str) * 2);
 	for (i = 0; i < strlen(str); i++)
+	{
 		*new = str[i];
+		new++;
+	}
 	new = &str;
 	if (sizeof(new) < sizeof(str))
 		return (NULL);
