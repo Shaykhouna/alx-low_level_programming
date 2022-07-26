@@ -14,9 +14,7 @@
  */
 int main(int argc, char* argv[])
 {
-	int count = 0;
-
-	count = argc - 1;
-	printf("%d\n", count);
+	(void)argv;
+	printf("%i\n", argc - 1);
 	return (0);
 }
