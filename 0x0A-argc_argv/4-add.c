@@ -21,13 +21,12 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	for (i = 0; i < argc; i++)
 	{
-		if (argv[i] > 1 && argv[i] < 9)
-			sum += argv[i];
-		else 
+		if (isdigit(argv[i]) != 1)
 		{
 			printf("Error\n");
 			return (1);
 		}
+		sum += argv[i];
 		printf("%d\n", sum);
 	}
 	return (0);
