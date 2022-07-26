@@ -21,6 +21,7 @@ char *_strdup(char *str)
 	for (i = 0; i < strlen(str); i++)
 	{
 		*new[i] = str[i];
+		new++;
 	}
 	new = &str;
 	if (sizeof(new) < sizeof(str))
