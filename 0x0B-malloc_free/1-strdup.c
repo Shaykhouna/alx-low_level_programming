@@ -19,5 +19,5 @@ char *_strdup(char *str)
 	new = &str;
 	if (sizeof(new) < sizeof(str))
 		return (NULL);
-	return (new);
+	return (*new);
 }
