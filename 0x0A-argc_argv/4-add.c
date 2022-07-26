@@ -14,35 +14,21 @@
  */
 int main(int argc, char *argv[])
 {
+	int i = 0;
 	int sum = 0;
-	while (--argc)
+
+	if (argc == 1)
+		printf("0\n");
+	for (i = 0; i < argc; i++)
 	{
-		if (isInt(argv[argc]))
+		if (argv[i] > 1 && argv[i] < 9)
+			sum += argv[i];
+		else 
 		{
 			printf("Error\n");
 			return (1);
 		}
-		sum += atoi(argv[argc]);
-	}
-	printf("%i\n", sum);
-	return (0);
-}
-
-/**
- * isInt - check type
- * @var: variable to check
- *
- * Return: nada
- */
-int isInt(char *)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		if (s[i] < '0' || s > '9')
-			return (1);
-		i++;
+		printf("%d\n", sum);
 	}
 	return (0);
 }
