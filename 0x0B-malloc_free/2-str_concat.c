@@ -17,12 +17,12 @@ char *str_concat(char *s1, char *s2)
 	char *str;
 	int size;
 
-	size = strlen(s1) + strlen(s2);
-	str = malloc(sizeof(char) * size);
 	if (s1 == NULL)
 		s1 = "";
 	else if (s2 == NULL)
 		s2 = "";
+	size = strlen(s1) + strlen(s2);
+	str = malloc(sizeof(char) * size);
 	strcat(str, s1);
 	strcat(str, s2);
 	return (str);
