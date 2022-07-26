@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _strdup - pointer giver
@@ -12,6 +13,7 @@
 char *_strdup(char *str)
 {
 	char **new;
+	int i;
 
 	if (str == NULL)
 		return (NULL);
