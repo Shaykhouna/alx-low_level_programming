@@ -12,11 +12,11 @@
  *
  * Return: number of args
  */
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
-	int i = 0;
+	int count = 0;
 
-	for (i = 1; i < argc; i++)
-	printf("%d\n", i);
+	count = argc - 1;
+	printf("%d\n", count);
 	return (0);
 }
