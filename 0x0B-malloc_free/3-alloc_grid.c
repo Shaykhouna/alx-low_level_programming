@@ -15,7 +15,7 @@
 int **alloc_grid(int width, int height)
 {
 	int size = width * height;
-	int **array = (int *)calloc(size, sizeof(int));
+	int **array = calloc(size, sizeof(int));
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
