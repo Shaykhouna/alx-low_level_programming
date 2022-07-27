@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <limits.h>
 
 /**
  * _strdup - pointer giver
@@ -16,7 +17,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	new = malloc(sizeof(*str) * 1024);
+	new = malloc(sizeof(*str) * CHAR_MAX);
 	strcpy(new, str);
 	if (sizeof(new) < sizeof(str))
 		return (NULL);
