@@ -14,8 +14,8 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int array[height][width];
-	int size, i = 0;
+	int array[1][1];
+	int size, i, j;
 	int *arr;
 
 	size = width * height;
