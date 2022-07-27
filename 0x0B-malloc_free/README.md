@@ -6,4 +6,7 @@ This is the Readme file to guide through function role
 1. The woman who has no imagination has no wings
 1-strdup.c -----> returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter
 
+2. He who is not courageous enough to take risks will accomplish nothing in life
+2-str_concat.c -----> concatenates two strings.
+
 
