@@ -16,7 +16,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *memory;
 	unsigned int i;
-	char *plac;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
