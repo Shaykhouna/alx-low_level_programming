@@ -24,5 +24,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		exit (NULL);
 	for (i = 0; i < (size * nmemb); i++)
 		memory[i] = 0;
-	return (memory);
+	exit (memory);
 }
