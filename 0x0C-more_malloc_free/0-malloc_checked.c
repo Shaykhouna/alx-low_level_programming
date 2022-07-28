@@ -14,7 +14,5 @@ void *malloc_checked(unsigned int b)
 {
 	void *check = malloc(b);
 
-	if (ckeck == NULL)
-		exit (98);
-	return (check);
+	if (check == NULL && b > 0) Handle_Failure(98);
 }
