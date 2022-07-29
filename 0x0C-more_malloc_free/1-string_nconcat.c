@@ -33,4 +33,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		conc[strlen(s1) + i] = s2[i];
 	conc = strcat(conc, '\0');
 	return (conc);
+	free(conc);
 }
