@@ -9,12 +9,8 @@
  *
  * Return: 0 when done
  */
-void main()
+int main(void)
 {
-	char file;
-
-#if __BASE_FILE__ != NULL
-	file = __BASE_FILE__
-	_putchar(file);
+	_putchar(__BASE_FILE__);
 	return (0);
 }
