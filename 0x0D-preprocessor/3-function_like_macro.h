@@ -1,10 +1,5 @@
 #ifndef ABS
-#define ABS(x) \
-	do \
-	{ \
-		if (x < 0) \
-			x = x * (-1); \
-	} while (x != NULL)
+#define ABS(x) (((x) < 0) ? -(x) : (x))
 
 /**
  * main - absolute
