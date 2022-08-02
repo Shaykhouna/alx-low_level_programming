@@ -1,12 +1,13 @@
 /**
- * struct dog - poppy
- * @name: first ember
- * @age: second member
- * @owner: third member
+ * struct dog - Poppy
+ * @name: First member
+ * @age: Second member
+ * @owner: Third member
  *
  * Description: a new type struct dog with theabove
  */
-struct dog {
+struct dog 
+{
 	char *name;
 	float age;
 	char *owner;
