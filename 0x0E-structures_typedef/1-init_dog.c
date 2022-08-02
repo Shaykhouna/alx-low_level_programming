@@ -16,10 +16,6 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
+	typedef struct dog new;
+	new d = {name, age, owner};
 }
