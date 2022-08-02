@@ -1,7 +1,5 @@
 #ifndef SUM
 
-#define SUM(x, y) do {(x) + (y)} while (0)
-
 /**
  * main - macro
  *
@@ -9,5 +7,6 @@
  *
  * Return: nada
  */
+#define SUM(x, y) ((x) + (y))
 
 #endif /* SUM */
