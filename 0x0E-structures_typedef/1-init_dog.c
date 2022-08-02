@@ -16,10 +16,10 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog new;
+	struct dog *new;
 
-	d = &new;
-	(*d).name = name;
-	(*d).age = age;
-	(*d).owner = owner;
+	new = &*d;
+	(*new).name = name;
+	(*new).age = age;
+	(*new).owner = owner;
 }
