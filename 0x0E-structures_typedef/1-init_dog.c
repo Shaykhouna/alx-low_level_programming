@@ -14,8 +14,20 @@
  *
  * Return: nada
  */
+struct dog *new(char *name, float age, char *owner)
+{
+	struct dog *d;
+
+	d = malloc(sizeof(stuct dog));
+	if (d == NULL)
+		return (NULL);
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
+	return (d);
+}
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog new = {name, age, owner};
-	struct dog *d = &new;
+	d = new(name, age, owner);
 }
