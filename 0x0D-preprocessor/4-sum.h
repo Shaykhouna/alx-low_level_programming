@@ -8,7 +8,6 @@
  * @x: first arg
  * @y: second arg
  * SUM(x, y)
- * Return: nada
  */
 
 #endif /* SUM */
