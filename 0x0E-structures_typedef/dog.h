@@ -1,6 +1,6 @@
 #include <stdio.h>
-#ifndef DOG_H
-#define DOG_H
+#ifndef dog
+#define dog
 
 /**
  * struct dog - Poppy
