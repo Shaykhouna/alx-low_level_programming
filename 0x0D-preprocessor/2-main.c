@@ -10,16 +10,8 @@
  *
  * Return: 0 when done
  */
-int main()
+int main(void)
 {
-	int i, len;
-	char *str, c;
-
-	str = malloc(sizeof(__BASE_FILE__));
-	*str = __BASE_FILE__;
-	len = strlen(str);
-	for (i = 0; i < len; i++)
-		c = str[i];
-		_putchar(c);
+	_putchar(__BASE_FILE__);
 	return (0);
 }
