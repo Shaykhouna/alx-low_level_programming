@@ -8,5 +8,4 @@
  *
  * Return: nada
  */
-
 #endif /* SUM */
