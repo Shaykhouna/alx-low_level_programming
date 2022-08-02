@@ -1,5 +1,5 @@
-#ifndef ADDITION
-#define ADDITION
+#ifndef SUM
+
 #define SUM(x, y) do {(x) + (y)} while (0)
 
 /**
