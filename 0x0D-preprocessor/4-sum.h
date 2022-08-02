@@ -4,9 +4,9 @@
 
 /**
  * main - macro
- *
  * function-like macro SUM(x, y) that computes the sum of the numbers
- *
+ * SUM(x, y)
  * Return: nada
  */
+
 #endif /* SUM */
