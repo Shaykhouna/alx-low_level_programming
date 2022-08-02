@@ -14,11 +14,12 @@
 int main()
 {
 	int i, len;
-	char str;
+	char str, c;
 
 	str = __BASE_FILE__;
 	len = strlen(str);
 	for (i = 0; i < len; i++)
-		_putchar(str[i]);
+		c = str[i];
+		_putchar(c);
 	return (0);
 }
