@@ -4,8 +4,8 @@
 
 /**
  * ABS - absolute
+ * @x: parameter
  * ABS(x) - This function-like macro that computes the absolute value of a number
- * @x: variable used
  */
 
 #endif /* ABS */
