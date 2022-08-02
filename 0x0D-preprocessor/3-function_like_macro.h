@@ -5,9 +5,9 @@
 #define ABS(x) (((x) < 0) ? -(x) : (x))
 
 /**
- * main - absolute
- * This function-like macro that computes the absolute value of a number
- * @x: parameter
+ * main - macro
+ * function-like macro ABS(x) that computes the absolute value of a number
+ * @x: arg
  * ABS(x)
  */
 
