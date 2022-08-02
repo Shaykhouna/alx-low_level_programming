@@ -6,7 +6,6 @@
  * ABS - absolute
  * This function-like macro ABS that computes the absolute value of a number
  * ABS(x)
- * Return: nada
  */
 
 #endif /* ABS */
