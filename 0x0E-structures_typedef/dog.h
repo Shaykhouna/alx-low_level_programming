@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * struct dog - Poppy
  * @name: First member
