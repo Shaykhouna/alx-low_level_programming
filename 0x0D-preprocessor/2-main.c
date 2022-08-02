@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "main.h"
 #define __BASE_FILE__
 
@@ -12,6 +13,12 @@
  */
 int main()
 {
-	_putchar("__BASE_FILE__");
+	int i, len;
+	char str;
+
+	str = __BASE_FILE__;
+	len = strlen(str);
+	for (i = 0; i < len; i++)
+		_putchar(str);
 	return (0);
 }
