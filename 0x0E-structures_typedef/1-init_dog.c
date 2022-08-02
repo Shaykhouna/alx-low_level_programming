@@ -16,6 +16,9 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+	struct dog new;
+
+	d = &new;
 	if (d)
 	{
 		d->name = name;
