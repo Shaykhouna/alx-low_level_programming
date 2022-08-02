@@ -14,9 +14,10 @@
 int main()
 {
 	int i, len;
-	char str, c;
+	char *str, c;
 
-	str = __BASE_FILE__;
+	str = malloc(sizeof(__BASE_FILE__));
+	*str = __BASE_FILE__;
 	len = strlen(str);
 	for (i = 0; i < len; i++)
 		c = str[i];
