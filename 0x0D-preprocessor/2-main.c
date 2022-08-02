@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
-#define __BASE_FILE__
 
 /**
  * main - name printer
