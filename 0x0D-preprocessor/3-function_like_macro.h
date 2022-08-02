@@ -1,5 +1,5 @@
-#ifndef ABS(x)
-#define ABS(x)
+#ifndef ABS
+#define ABS(x) (((x) < 0) ? (-(x) : (x)))
 
 /**
  * main - absolute
@@ -8,7 +8,5 @@
  *
  * Return: nada
  */
-#if (x < 0)
-
 
 #endif /* ABS */
