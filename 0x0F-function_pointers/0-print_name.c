@@ -16,7 +16,7 @@ void print_name(char *name, void (*f)(char *))
 {
 	char *str;
 
-	str = &f(name);
 	f(name);
+	str = &f(name);
 	return;
 }
