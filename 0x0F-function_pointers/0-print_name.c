@@ -21,7 +21,7 @@ void print_name(char *name, void (*f)(char *))
 	str = f(name);
 	for (i = 0; i < len; i++)
 	{
-		str[i] = f++;
+		str[i] = f(name)++;
 		_putchar(str);
 	}
 	return;
