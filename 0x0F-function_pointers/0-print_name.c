@@ -15,14 +15,8 @@
 void print_name(char *name, void (*f)(char *))
 {
 	char str;
-	int i, len;
 
-	len = strlen(name);
 	str = f(name);
-	for (i = 0; i < len; i++)
-	{
-		str[i] = f(name)++;
-		_putchar(str);
-	}
+	_putchar(str);
 	return;
 }
