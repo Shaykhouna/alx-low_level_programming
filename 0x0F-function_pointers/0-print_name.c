@@ -19,7 +19,9 @@ void print_name(char *name, void (*f)(char *))
 
 	len = strlen(name);
 	for (i = 0; i < len; i++)
+	{
 		str[i] = f++;
 		_putchar(str[i]);
+	}
 	return;
 }
