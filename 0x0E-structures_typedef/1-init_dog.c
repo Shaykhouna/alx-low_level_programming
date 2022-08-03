@@ -18,5 +18,5 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	struct dog new {name, age, owner};
 	struct dog *d = malloc(sizeof(struct dog));
-	d = &new;
+	*d = &new;
 }
