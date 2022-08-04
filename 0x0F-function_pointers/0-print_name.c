@@ -12,6 +12,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f(*name);
-	printf("%s\n", f(*name));
+	f(name);
+	return (f(name));
 }
