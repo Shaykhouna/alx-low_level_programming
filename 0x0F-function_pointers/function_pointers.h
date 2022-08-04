@@ -2,7 +2,7 @@
 #define FUNCTION_POINTERS_H
 
 /**
- * main - header 
+ * function_pointers - header 
  *
  * This is the header file for prototypes
  *
