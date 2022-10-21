@@ -12,21 +12,23 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	/*if (a != b && b != c && a != c)
-	{*/
+	if (a != b && b != c && a != c)
+	{
 		if (a > b && a > c)
 		{
 			largest = a;
+			continue;
 		}
 		else if (b > a && b > c)
 		{
 	        	largest = b;
+			continue;
 		}
 		else if (c > a && c > b)
 		{
 			largest = c;
+			continue;
 		}
-	/*}*/
-	_putchar('\n');
+	}
 	return (largest);
 }
