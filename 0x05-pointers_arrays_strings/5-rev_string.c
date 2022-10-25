@@ -20,7 +20,7 @@ void rev_string(char *s)
 	str = &*s;
 	for (i = len; i > 0; i--)
 	{
-		strncat(ch, s[-i], len -(len - i));
+		ch = s[-i];
 	}
 	*str = ch;
 	_putchar('\n');
