@@ -12,15 +12,17 @@
  */
 void rev_string(char *s)
 {
-	int i = 0;
-	char ch = *s;
+	int i, j = 0;
+	char ch = s;
 	char *str;
 	int len = strlen(s);
 
+	holder = s;
 	str = &*s;
 	for (i = len; i > 0; i--)
 	{
-		ch = s[-i];
+		ch[j] = s[-1];
+		j++;
 	}
 	*str = ch;
 	_putchar('\n');
