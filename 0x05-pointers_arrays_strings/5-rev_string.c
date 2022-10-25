@@ -12,7 +12,7 @@
  */
 void rev_string(char *s)
 {
-	int i, j = 0;
+	int i = 0;
 	char ch = *s;
 	char *str;
 	int len = strlen(s);
@@ -20,8 +20,7 @@ void rev_string(char *s)
 	str = &*s;
 	for (i = len; i > 0; i--)
 	{
-		ch[j] = s[-1];
-		j++;
+		strncat(ch, s[-i], len -(len - i));
 	}
 	*str = ch;
 	_putchar('\n');
