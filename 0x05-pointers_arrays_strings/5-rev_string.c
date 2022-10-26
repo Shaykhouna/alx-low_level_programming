@@ -12,9 +12,8 @@
  */
 void rev_string(char *s)
 {
-	int i, j = 0;
-	char ch = *s;
-	char hold[sizeof(*s)] = s;
+	int i, j, k = 0;
+	char hold[sizeof(*s)];
 	char *str;
 	int len = strlen(s);
 
@@ -23,10 +22,11 @@ void rev_string(char *s)
 	{
 		for (i = len; i > 0; i--)
 		{
-			ch = hold[-i];
-			*(str + j) = ch;
+			hold[j] = s[-i];
 			j++;
 		}
 	}
+	for (k = 0; k < len; k++)
+		*(str + k) = hold[k];
 	_putchar('\n');
 }
