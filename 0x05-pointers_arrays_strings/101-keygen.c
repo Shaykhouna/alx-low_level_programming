@@ -11,7 +11,7 @@
  *
  * Return: return the password
  */
-int 101-crackme(void)
+int crackme(void)
 {
 	srand(time(NULL));
 
