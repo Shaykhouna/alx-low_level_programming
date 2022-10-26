@@ -11,7 +11,8 @@
  */
 int main(void)
 {
-	
+	crackme(void);
+	return (0);
 }
 /**
  * 101-crackme - password
