@@ -20,7 +20,7 @@ void rev_string(char *s)
 	str = &*s;
 	while (s[i] != '\0')
 	{
-		char hold[len];
+		char hold[sizeof(s)];
 		for (i = len; i > 0; i--)
 		{
 			ch = s[-i];
