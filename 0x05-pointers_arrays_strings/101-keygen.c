@@ -4,6 +4,16 @@
 #include "main.h"
 
 /**
+ * main - cracker
+ * @crack = to crack
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	
+}
+/**
  * 101-crackme - password
  *
  * This program generates random valid passwords for the program 101-crackme
