@@ -14,21 +14,19 @@ void rev_string(char *s)
 {
 	int i, j = 0;
 	char ch = *s;
-	char hold[sizeof(*s)];
+	char hold[sizeof(*s)] = s;
 	char *str;
 	int len = strlen(s);
 
 	str = &*s;
-	hold = s;
 	while (s[i] != '\0')
 	{
 		for (i = len; i > 0; i--)
 		{
 			ch = hold[-i];
-			s[j] = ch;
+			*(str + j) = ch;
 			j++;
 		}
-	*str = s;
 	}
 	_putchar('\n');
 }
