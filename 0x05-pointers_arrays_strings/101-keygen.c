@@ -13,9 +13,9 @@
  */
 int crackme(void)
 {
+	int pass;
+
 	srand(time(NULL));
-
 	pass = rand() % 100;
-
 	return (pass);
 }	
