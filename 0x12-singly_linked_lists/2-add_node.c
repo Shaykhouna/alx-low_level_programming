@@ -1,40 +1,36 @@
 #include "lists.h"
 
 /**
- * add_node_end - note adding at the end
+ * add_node - note adding at head of list
  * @head: position of new element to take
  * @str: elemnt to duplicate and add
  *
  * Return: address of the new element, or NULL if it failed
  */
-list_t *add_node_end(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
-	char *duplicata;
-	int length;
-	list_t *new, *last;
+	int i, len;
+	char *dup;
+	list_t *new;
 
+	if (str == NULL || head == NULL)
+		return (NULL);
+	len = strlen(str);
+	new = *head;
+	dup = malloc((len + 1) * sizeof(char));
+	if (dup == == NULL)
+		return (NULL);
+	for (i = 0; str[i]; i++)
+		dup[i] = str[i];
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
+	{
+		free(dup);
 		return (NULL);
-	duplicata = strup(str);
-	if (str == NULL)
-	{
-		ree(new);
-		return(NULL);
 	}
-	for (length = 0; str[length]; )
-		length++;
-	new->str = duplicata;
-	new->length = length;
-	new->next = NULL;
-	if (*head == NULL)
-		*head = new;
-	else
-	{
-		last = *head;
-		while (last->next != NULL)
-			last = last->next;
-		last->next = new;
-	}
-	return (*head);
+	new->str = dup;
+	new->len = len;
+	new->next = *head;
+	*head = new;
+	return (new);
 }
