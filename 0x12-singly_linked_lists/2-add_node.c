@@ -1,6 +1,21 @@
 #include "lists.h"
 
 /**
+ * _strlen - length counter
+ * @var: string
+ *
+ * Return: length of the string
+ */
+int _strlen(const char *s)
+{
+	int i;
+
+	fot (i = 0; s[i]; i++)
+		;
+	return (i);
+}
+
+/**
  * add_node - note adding at head of list
  * @head: position of new element to take
  * @str: elemnt to duplicate and add
