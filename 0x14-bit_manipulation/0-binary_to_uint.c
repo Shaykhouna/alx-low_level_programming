@@ -12,20 +12,16 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-        unsigned int sum, puiss;
+        unsigned int numb;
         int length;
 
-        if (b == NULL)
-                return (0);
-        for (length = 0; b[length]; len++)
+	if (b[length] == '\0')
+		return (0);
+	while ((b[length] == '0') || (b[length] == '1'))
         {
-                if (b[length] != '0' && b[length] != '1')
-                        return (0);
+		numb <<= 1;
+		numb+= b[length] - '0';
+		length++;
         }
-        for (puiss = 1, sum = 0, len--; len >= 0; len--, puiss *= 2)
-        {
-                if (b[length] == '1')
-                        sum += puiss;
-        }
-        return (sum);
+        return (numb);
 }
