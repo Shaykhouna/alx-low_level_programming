@@ -9,16 +9,12 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int temp, i = 1, count = 0;
+	unsigned long int temp = n ^ m, count = 0;
 
-	temp = n ^ m;
-	while (temp >= 1)
+	while (temp > 0)
 	{
-		if (i & temp)
-			count++;
-		if (count >= MaX_COUNT)
-			return (count);
-		i = i << 1;
+		count += (temp & 1);
+		count >>= 1;
 	}
 	return (count);
 }
