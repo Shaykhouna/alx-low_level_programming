@@ -12,7 +12,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-        unsigned int num = 0, sum = 0;
+	unsigned int num = 0, sum = 0;
 
 	if (!b)
 		return (0);
@@ -22,6 +22,6 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		sum = sum << 1;
 		sum |= (b[num] - '0');
-        }
-        return (sum);
+	}
+	return (sum);
 }
