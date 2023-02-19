@@ -22,7 +22,7 @@ int main(void)
 		{
 			for (o = 0; o <= 9; o++)
 			{
-				for (p = 0; p <=9; p++)
+				for (p = 0; p <= 9; p++)
 				{
 					if (n <= o && m < p)
 					{
