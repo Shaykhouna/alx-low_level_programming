@@ -28,6 +28,7 @@ int main(void)
 					{
 						putchar(n + '0');
 						putchar(m + '0');
+						putchar(' ');
 						putchar(o + '0');
 						putchar(p + '0');
 						if (n != 9 || m != 8 || o != 9 || p != 9)
