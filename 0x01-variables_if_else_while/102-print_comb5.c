@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * main - Software is eating the World
@@ -9,17 +11,35 @@
  */
 int main(void)
 {
-	int num1 = {0..9};
-	int num2 = {0..9};
-	int comb;
-	int comb1;
-	int comb2;
+	int n;
+	int m;
+	int o;
+	int p;
 
-	comb1 = {0..9}{0..9};
-	comb2 = {0..9}{0..9};
-	for (comb = 0; comb < 100; comb++)
+	for (n = 0; n <= 9; n)
 	{
-		
+		for (m = 0; m < 9; m++)
+		{
+			for (o = 0; o <= 9; o++)
+			{
+				for (p = 0; p <=9; p++)
+				{
+					if (n <= o && m < p)
+					{
+						putchar(n + '0');
+						putchar(m + '0');
+						putchar(o + '0');
+						putchar(p + '0');
+						if (n != 9 || m != 8 || o != 9 || p != 9)
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
+			}
+		}
 	}
+	putchar('\n');
 	return (0);
 }
