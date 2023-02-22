@@ -18,8 +18,8 @@ void print_to_98(int n)
 	{
 		for (pos = n-1; pos >= 98; pos--)
 		{
-			print(', ');
-			print("%d", pos);
+			printf(', ');
+			printf("%d", pos);
 
 		}
 		_putchar('\n');
