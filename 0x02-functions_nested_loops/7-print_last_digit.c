@@ -13,7 +13,7 @@ int print_last_digit(int c)
 {
 	int digit;
 
-	if (c < 0)
+	if (c < 0 or c == INT_MIN)
 	{
 		c = c * (-1);
 	}
