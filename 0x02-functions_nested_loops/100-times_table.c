@@ -19,7 +19,7 @@ void print_times_table(int n)
 	{
 		for (one = 0; one <= n; one++)
 		{
-			for (two = 0; two <= n; two++)
+			for (two = 0; two < n; two++)
 			{
 				tim = one * two;
 				if (tim >= 100)
