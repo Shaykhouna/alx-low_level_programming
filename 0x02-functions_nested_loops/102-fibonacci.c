@@ -15,12 +15,11 @@ int main(void)
 	int new = 1;
 	int sum = 0;
 
-	printf("0, 1, ");
-	while (count < 50)
+	while (count <= 50)
 	{
 		sum = new + prev;
 		count++;
-		if (count < 49)
+		if (count < 50)
 		{
 			printf("%d, ", sum);
 		}
