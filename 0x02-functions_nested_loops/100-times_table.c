@@ -11,12 +11,14 @@
  */
 void print_times_table(int n)
 {
+	int one, two = 0, 0;
+
 	if (n <= 15 && n >= 0)
 	{
-		for (one = 0, one <= n, one++)
+		for (one = 0; one <= n; one++)
 		{
 			int count = 0;
-			for (two = 0, two <= n, two++)
+			for (two = 0; two <= n; two++)
 			{
 				tim = one * two;
 				if (two < n)
