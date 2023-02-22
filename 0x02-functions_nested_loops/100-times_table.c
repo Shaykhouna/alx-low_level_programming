@@ -22,7 +22,7 @@ void print_times_table(int n)
 			for (two = 0; two < n; two++)
 			{
 				tim = one * two;
-				if (one * (two + 1) > 100)
+				if (one * (two + 1) >= 100)
 				{
 					printf("%d, ", tim);
 				}
