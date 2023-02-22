@@ -24,7 +24,7 @@ void print_times_table(int n)
 				tim = one * two;
 				if (one * (two + 1) > 100)
 				{
-					printf("%d ", tim);
+					printf("%d, ", tim);
 				}
 				else if (one * (two + 1) >= 10)
 				{
