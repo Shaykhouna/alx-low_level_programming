@@ -18,7 +18,8 @@ void print_to_98(int n)
 	{
 		for (pos = n-1; pos >= 98; pos--)
 		{
-			printf(', ');
+			_putchar(',');
+			_putchar(' ');
 			printf("%d", pos);
 
 		}
