@@ -7,7 +7,7 @@
  * This function compute and print the sum of multiples of 3 or 5
  * @: None
  *
- * Returns: Always 0 main function
+ * Return: Always 0 main function
  */
 int main(void)
 {
