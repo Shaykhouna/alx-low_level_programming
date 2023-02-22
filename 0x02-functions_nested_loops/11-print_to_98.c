@@ -18,34 +18,19 @@ void print_to_98(int n)
 	{
 		for (pos = n-1; pos >= 98; pos--)
 		{
-			if ((pos != 98) && (pos > 99))
-			{
-				_putchar((pos / 100) + '0');
-				_putchar((((pos * 10) % 100) / 10) + '0');
-				_putchar((pos % 10) + '0');
-			}
-			else
-			{
-				_putchar((pos / 10) + '0');
-				_putchar((pos % 10) + '0');
-			}
-			if (pos != 98)
-			{
-				_putchar(',');
-				putchar(' ');
-			}
+			print(', ');
+			print("%d", pos);
 
 		}
 		_putchar('\n');
 	}
 	else
 	{
-		for (pos = n; pos <= 98; pos++)
+		for (pos = n+1; pos <= 98; pos++)
 		{
-			_putchar((pos / 10) + '0');
-			_putchar((pos % 10) + '0');
 			_putchar(',');
 			_putchar(' ');
+			printf("%d", pos);
 		}
 	}
 }
