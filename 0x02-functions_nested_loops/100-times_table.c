@@ -22,22 +22,20 @@ void print_times_table(int n)
 			for (two = 0; two <= n; two++)
 			{
 				tim = one * two;
-				if (two < n)
+				if (tim >= 100)
 				{
-					if (tim >= 10)
-					{
-						printf("%d,  ", tim);
-					}
-					else if (tim >= 100)
-					{
-						printf("%d, ", tim);
-					}
+					printf("%d ", tim);
 				}
-				else
+				else if (tim >= 10)
 				{
-					printf("%d\n", tim);
+					printf("%d,  ", tim);
+				}
+				else if (tim < 10)
+				{
+					printf("%d,   ", tim);
 				}
 			}
+			printf("%d\n", one * n);
 		}
 	}
 }
