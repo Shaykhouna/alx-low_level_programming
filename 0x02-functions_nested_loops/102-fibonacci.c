@@ -14,20 +14,21 @@ int main(void)
 	int prev = 0;
 	int new = 1;
 
-	printf("0, ");
+	printf("0, 1, ");
 	while (count < 50)
 	{
-		new = new + prev;
+		sum = new + prev;
 		count++;
-		if (count != 49)
+		if (count < 49)
 		{
-			printf("%d, ", new);
+			printf("%d, ", sum);
 		}
 		else
 		{
-			printf("%d\n", new);
+			printf("%d\n", sum);
 		}
 		prev = new;
+		new = sum;
 	}
 	return (0);
 }
