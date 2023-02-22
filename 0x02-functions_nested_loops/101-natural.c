@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * natural - sum multiples
+ * main - sum multiples
  *
  * This function compute and print the sum of multiples of 3 or 5
  * @: None
