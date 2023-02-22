@@ -10,7 +10,6 @@
  */
 int main(void)
 {
-	int count = 0;
 	long int prev = 0;
 	long int new = 1;
 	long int sum = 0;
