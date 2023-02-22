@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_times_table - print times table 
+ * print_times_table - print times table
  *
  * This function prints times table of the given number
  * @n: the given number to print times table for
@@ -22,15 +22,15 @@ void print_times_table(int n)
 			for (two = 0; two < n; two++)
 			{
 				tim = one * two;
-				if (tim >= 100)
+				if (one * (two + 1) > 100 )
 				{
 					printf("%d ", tim);
 				}
-				else if (tim >= 10)
+				else if (one * (two + 1) >= 10)
 				{
 					printf("%d,  ", tim);
 				}
-				else if (tim < 10)
+				else if (one * (two + 1) < 10)
 				{
 					printf("%d,   ", tim);
 				}
