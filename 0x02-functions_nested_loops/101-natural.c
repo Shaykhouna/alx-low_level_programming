@@ -11,7 +11,6 @@
  */
 void natural(void)
 {
-	int m = 0;
 	int n = 0;
 	int sum = 0;
 
