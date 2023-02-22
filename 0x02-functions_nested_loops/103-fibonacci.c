@@ -21,6 +21,8 @@ int main(void)
                 {
 			tot = tot + sum
 		}
+		prev = new;
+		new = sum;
 	}
 	printf("%ld\n", tot);
 	return (0);
