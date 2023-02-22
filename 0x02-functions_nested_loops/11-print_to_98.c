@@ -13,25 +13,19 @@ void print_to_98(int n)
 {
 	int pos;
 
-	_putchar(n);
 	if (n > 98)
 	{
-		for (pos = n-1; pos >= 98; pos--)
+		for (pos = n; pos > 98; pos--)
 		{
-			_putchar(',');
-			_putchar(' ');
-			printf("%d", pos);
-
+			printf("%d, ", pos);
 		}
-		_putchar('\n');
 	}
 	else
 	{
-		for (pos = n+1; pos <= 98; pos++)
+		for (pos = n+1; pos < 98; pos++)
 		{
-			_putchar(',');
-			_putchar(' ');
-			printf("%d", pos);
+			printf("%d, ", pos);
 		}
 	}
+	printf("98\n");
 }
