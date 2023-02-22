@@ -19,14 +19,9 @@ int main(void)
 		sum = new + prev;
 		if (4000000 - new < prev)
                 {
-                        printf("%ld, ", sum);
-                }
-                else
-                {
-                        printf("%ld\n", sum);
-                }
-                prev = new;
-                new = sum;
-        }
-        return (0);
+			tot = tot + sum
+		}
+	}
+	printf("%ld\n", tot);
+	return (0);
 }
