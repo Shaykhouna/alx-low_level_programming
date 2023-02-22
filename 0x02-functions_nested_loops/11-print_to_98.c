@@ -22,7 +22,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (pos = n+1; pos < 98; pos++)
+		for (pos = n; pos < 98; pos++)
 		{
 			printf("%d, ", pos);
 		}
