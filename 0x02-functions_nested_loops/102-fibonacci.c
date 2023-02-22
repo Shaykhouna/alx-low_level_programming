@@ -11,9 +11,9 @@
 int main(void)
 {
 	int count = 0;
-	unsigned int prev = 0;
-	unsigned int new = 1;
-	unsigned int sum = 0;
+	long int prev = 0;
+	long int new = 1;
+	long int sum = 0;
 
 	while (count <= 50)
 	{
