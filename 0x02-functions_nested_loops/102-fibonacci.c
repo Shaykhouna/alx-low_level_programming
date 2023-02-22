@@ -6,7 +6,7 @@
  *
  * This program prints the first 50 Fibonacci numbers, starting with 1 and 2
  *
- * Returns: Always 0 when success
+ * Return: Always 0 when success
  */
 int main(void)
 {
