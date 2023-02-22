@@ -13,6 +13,7 @@ int main(void)
 	int count = 0;
 	int prev = 0;
 	int new = 1;
+	int sum = 0;
 
 	printf("0, 1, ");
 	while (count < 50)
