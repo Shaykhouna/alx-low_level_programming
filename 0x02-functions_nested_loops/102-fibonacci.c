@@ -27,7 +27,7 @@ int main(void)
 		{
 			printf("%d\n", new);
 		}
-		prev = new
+		prev = new;
 	}
 	return (0);
 }
