@@ -15,7 +15,7 @@ int main(void)
 	long int new = 1;
 	long int sum = 0;
 
-	while (count <= 50)
+	while (count < 50)
 	{
 		sum = new + prev;
 		count++;
