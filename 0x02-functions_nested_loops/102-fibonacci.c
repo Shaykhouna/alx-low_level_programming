@@ -21,11 +21,11 @@ int main(void)
 		count++;
 		if (count < 50)
 		{
-			printf("%d, ", sum);
+			printf("%ld, ", sum);
 		}
 		else
 		{
-			printf("%d\n", sum);
+			printf("%ld\n", sum);
 		}
 		prev = new;
 		new = sum;
