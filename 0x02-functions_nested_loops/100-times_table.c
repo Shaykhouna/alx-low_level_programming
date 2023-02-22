@@ -19,7 +19,6 @@ void print_times_table(int n)
 	{
 		for (one = 0; one <= n; one++)
 		{
-			int count = 0;
 			for (two = 0; two <= n; two++)
 			{
 				tim = one * two;
