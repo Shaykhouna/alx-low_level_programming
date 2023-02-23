@@ -23,7 +23,7 @@ void more_numbers(void)
 			}
 			_putchar(c % 10 + '0');
 			c++;
-		} while (c <= 14)
+		} while (c <= 14);
 		_putchar('\n');
 	}
 }
