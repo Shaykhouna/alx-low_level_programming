@@ -13,13 +13,14 @@ int main(void)
 	long int prev = 0;
 	long int new = 1;
 	long int sum = 0;
+	long int tot = 0;
 
 	while (sum < 4000000)
 	{
 		sum = new + prev;
 		if (sum % 2 == 0)
                 {
-			tot = tot + sum
+			tot = tot + sum;
 		}
 		prev = new;
 		new = sum;
