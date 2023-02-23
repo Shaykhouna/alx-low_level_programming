@@ -13,7 +13,7 @@ int main(void)
 	long int prev = 0;
 	long int new = 1;
 	long int sum = 0;
-	long int count = 0;
+	int count = 0;
 
 	while (count <= 98)
 	{
@@ -28,6 +28,7 @@ int main(void)
 		}
 		prev = new;
 		new = sum;
+		count++;
 	}
 	return (0);
 }
