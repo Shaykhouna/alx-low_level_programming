@@ -10,8 +10,8 @@
  */
 void more_numbers(void)
 {
-	int long c = 0;
-	int long count = 0;
+	int c = 0;
+	int count = 0;
 
 	while (count < 10)
 	{
