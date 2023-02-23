@@ -20,7 +20,6 @@ void more_numbers(void)
 			if (c > 9)
 			{
 				_putchar('1');
-				break;
 			}
 			_putchar(c % 10 + '0');
 			c++;
