@@ -19,7 +19,7 @@ int main(void)
 	{
 		sum = new + prev;
 		if (sum % 2 == 0)
-                {
+		{
 			tot = tot + sum;
 		}
 		prev = new;
