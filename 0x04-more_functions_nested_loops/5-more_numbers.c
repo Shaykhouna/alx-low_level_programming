@@ -15,7 +15,7 @@ void more_numbers(void)
 
 	while (count < 10)
 	{
-		while (c <= 14)
+		do
 		{
 			if (c > 9)
 			{
@@ -23,7 +23,7 @@ void more_numbers(void)
 			}
 			_putchar(c % 10 + '0');
 			c++;
-		}
+		} while (c <= 14)
 		_putchar('\n');
 	}
 }
