@@ -6,6 +6,9 @@
  *
  * This program converts a date to the day of year
  * and determines how many days are left
+ * @month: the month
+ * @day: the days
+ * @year: years to check
  *
  * Return: 0 when done
  */
