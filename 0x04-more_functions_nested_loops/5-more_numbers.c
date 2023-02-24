@@ -15,8 +15,7 @@ void more_numbers(void)
 
 	while (count < 10)
 	{
-		do
-		{
+		do {
 			if (c > 9)
 			{
 				_putchar('1');
