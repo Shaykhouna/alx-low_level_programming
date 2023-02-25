@@ -17,25 +17,21 @@ int main(void)
 	{
 		if (count % 3 == 0 && count % 5 == 0)
 		{
-			printf("FizzBuzz");
-			_putchar(' ');
+			printf("FizzBuzz ");
 		}
 		else if (count % 5 == 0)
 		{
-			printf("Buzz");
-			_putchar(' ');
+			printf("Buzz ");
 		}
 		else if (count % 3 == 0)
 		{
-			printf("Fizz");
-			_putchar(' ');
+			printf("Fizz ");
 		}
 		else
 		{
 			if (count > 9)
 			{
 				_putchar(count % 10 + '0');
-				break;
 			}
 			_putchar(count + '0');
 			_putchar(' ');
