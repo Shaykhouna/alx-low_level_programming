@@ -10,23 +10,21 @@
  */
 int main(void)
 {
-	int count = 1;
-	int mul3 = count % 3;
-	int mul5 = count % 5;
+	int count;
 
 	for (count = 1; count <= 100; count++)
 	{
-		if (mul3 == 0 && mul5 == 0)
+		if (count % 3 == 0 && count % 5 == 0)
 		{
 			printf("FizzBuzz");
 			_putchar(' ');
 		}
-		else if (mul5 == 0)
+		else if (count % 5 == 0)
 		{
 			printf("Buzz");
 			_putchar(' ');
 		}
-		else if (mul3 == 0)
+		else if (count % 3 == 0)
 		{
 			printf("Fizz");
 			_putchar(' ');
