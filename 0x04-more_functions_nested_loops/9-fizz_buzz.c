@@ -21,17 +21,17 @@ int main(void)
 	{
 		if (mul3 == 0 && mul5 == 0)
 		{
-			_putchar(mul35);
+			printf("FizzBuzz");
 			_putchar(' ');
 		}
 		else if (mul5 == 0)
 		{
-			_putchar(multi5);
+			printf("Buzz");
 			_putchar(' ');
 		}
 		else if (mul3 == 0)
 		{
-			_putchar(multi3);
+			printf("Fizz");
 			_putchar(' ');
 		}
 		else
