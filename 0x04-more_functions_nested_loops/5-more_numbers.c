@@ -10,19 +10,16 @@
  */
 void more_numbers(void)
 {
-	int c = 0;
-	int count = 0;
+	int c, count;
 
-	while (count < 10)
+	for (c = 0; c <= 14; c++)
 	{
-		do {
-			if (c > 9)
-			{
+		for (count = 0; count <= 14; count++)
+		{
+			if (count >= 10)
 				_putchar('1');
-			}
-			_putchar(c % 10 + '0');
-			c++;
-		} while (c <= 14);
+			_putchar(count % 10 + '0');
+		}
 		_putchar('\n');
 	}
 }
