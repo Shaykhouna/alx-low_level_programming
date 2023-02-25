@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * fizzbuzz - interview
+ * main - interview
  *
  * This program prints the numbers from 1 to 100
  *
@@ -13,9 +13,6 @@ int main(void)
 	int count = 1;
 	int mul3 = count % 3;
 	int mul5 = count % 5;
-	int multi3 = 'Fizz';
-	int multi5 = 'Buzz';
-	int mul35 = 'FizzBuzz';
 
 	for (count = 1; count <= 100; count++)
 	{
