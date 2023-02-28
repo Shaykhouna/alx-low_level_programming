@@ -13,18 +13,24 @@ void print_array(int *a, int n)
 {
 	int i;
 	int cnt = *a;
+	int len = strlen(a);
 
-	for (i = 0; i < n; i++)
+	if (n > 0 && n <= len)
 	{
-		cnt = a[i];
-		if (i != n - 1)
+		for (i = 0; i < n; i++)
 		{
-			printf("%d, ", cnt);
+			cnt = a[i];
+			if (i != n - 1)
+			{
+				printf("%d, ", cnt);
+			}
+			else
+			{
+				printf("%d\n", cnt);
+			}
 		}
-		else
-		{
-			printf("%d\n", cnt);
-		}
+	else
+	{
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
