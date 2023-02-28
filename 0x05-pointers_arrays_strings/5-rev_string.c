@@ -13,7 +13,7 @@
 void rev_string(char *s)
 {
 	int i, j, k = 0;
-	int one = sizeof(*s);
+	const int one = sizeof(*s);
 	char *str;
 	int len = strlen(s);
 
