@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 {
 	int i;
 	int cnt = *a;
-	int len = strlen(a);
+	int len = strlen(*a);
 
 	if (n > 0 && n <= len)
 	{
