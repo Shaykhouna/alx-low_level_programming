@@ -12,23 +12,13 @@
  */
 void rev_string(char *s)
 {
-	int i, j, k = 0;
-	char *str;
+	int i = 0;
+	char str;
 	int len = strlen(s);
 
-	str = &*s;
-	char hold[sizeof(*s)];
-	while (s[j] != '\0')
+	for (i = 1; i < len; i++)
 	{
-		for (i = 1; i > len; i++)
-		{
-			hold[j] = s[-i];
-			j++;
-			i++;
-		}
+		str = str + s[-i];
 	}
-	*str = hold[0];
-	for (k = 1; k < len; k++)
-		*(str + k) = hold[k];
-	_putchar('\n');
+	*s = str;
 }
