@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	int cnt = *a;
 	int a_size = sizeof(*a) / sizeof(a[0]);
 
-	if (n > 0 && n <= a_size)
+	if (n > 0 || n <= a_size)
 	{
 		for (i = 0; i < n; i++)
 		{
