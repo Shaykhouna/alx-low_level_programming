@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * print_array - printer
@@ -14,9 +13,9 @@ void print_array(int *a, int n)
 {
 	int i;
 	int cnt = *a;
-	int len = strlen(*a);
+	int a_size = sizeof(*a) / sizeof(a[0]);
 
-	if (n > 0 && n <= len)
+	if (n > 0 && n <= a_size)
 	{
 		for (i = 0; i < n; i++)
 		{
