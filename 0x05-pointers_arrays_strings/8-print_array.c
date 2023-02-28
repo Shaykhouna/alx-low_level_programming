@@ -12,11 +12,11 @@
 void print_array(int *a, int n)
 {
 	int i;
-	char cnt = *a;
+	int cnt = *a;
 
 	for (i = 0; i < n; i++)
 	{
-		cnt = *(a + i);
+		cnt = a[i];
 		if (i != n - 1)
 		{
 			printf("%d, ", cnt);
