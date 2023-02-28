@@ -13,12 +13,11 @@
 void rev_string(char *s)
 {
 	int i, j, k = 0;
-	const int one = sizeof(*s);
 	char *str;
 	int len = strlen(s);
 
 	str = &*s;
-	char hold[one];
+	char hold[sizeof(*s)];
 	while (s[j] != '\0')
 	{
 		for (i = 1; i > len; i++)
