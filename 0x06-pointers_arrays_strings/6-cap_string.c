@@ -29,7 +29,7 @@ char *cap_string(char *s)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			s[i] = s[i] - 32;
+			s[i] = ('a' - 'A');
 			cap = 0;
 		}
 		else if (s[i] >= 'A' && s[i] <= 'Z')
