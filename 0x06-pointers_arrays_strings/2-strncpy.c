@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncpy - Copier
@@ -13,12 +14,14 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
+	int len = strlen(dest);
 
 	while (src[i] != '\0' && i < n)
+	for (i = 0; i < n; i++)
 	{
-		*dest = src[i];
-		i++;
+		dest[len] = src[i];
+		len++;
 	}
-	*dest = '\0';
+	dest[len] = '\0';
 	return (dest);
 }
