@@ -11,32 +11,17 @@
 char *cap_string(char *s)
 {
 	int i = 0;
-	int j = 0;
-	int cap;
-	char ch[] = ",;.!?(){}\n\t\" ";
 
-	for (i = 0, cap = 0; s[i] != '\0'; i++)
+	while (s[i])
 	{
-		if (s[0] >= 'a' && s[0] <= 'z')
-			cap = 1;
-		for (j = 0; ch[j] != '\0'; j++)
-		{
-			if (ch[j] == s[i])
-				cap = 1;
-		}
-	}
-	while (cap)
-	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-		{
-			s[i] = ('a' - 'A');
-			cap = 0;
-		}
-		else if (s[i] >= 'A' && s[i] <= 'Z')
-	cap = 0;
-		else if (s[i] <= 0 && s[i] <= 9)
-			cap = 0;
-
+		while(!(s[i] >= 'a' && s[i] <= 'z'))
+			i++;
+		if(s[i - 1] == ' ' || s[i - 1] == '\t' || s[i - 1] == '\n' || s[i - 1] == ',' ||
+				s[i - 1] == ';' || s[i - 1] == '.' || s[i - 1] == '!' ||
+				s[i - 1] == '?' || s[i - 1] == '"' || s[i - 1] == '(' ||
+				s[i - 1] == ')' || s[i - 1] == '{' || s[i - 1] == '}' || i == 0)
+			s[i] -= 32;
+		i++;
 	}
 	return (s);
 }
