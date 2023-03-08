@@ -20,15 +20,19 @@ int _sqrt_recursion(int n)
 		return (0);
 	else if (n == 1)
 		return (1);
-	else 
+	else
 	{
-		rt = ((rt1 + (n / rt1)) / 2);
-		if (rt * rt == n)
+		rt = ((rt1 + (n / 2)) / 2);
+		while (rt < (n / 2))
 		{
-			if (rt % 2 == 0 || rt % 3 == 0)
-				return (rt);
-			else
-				return (-1);
+			if (rt * rt == n)
+			{
+				if (rt % 2 == 0 || rt % 3 == 0)
+					return (rt);
+				else
+					continue;
+			}
+			rt1++;
 		}
 		return (-1);
 	}
