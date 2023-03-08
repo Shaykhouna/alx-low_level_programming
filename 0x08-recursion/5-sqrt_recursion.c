@@ -25,8 +25,8 @@ int _sqrt_recursion(int n)
 	else if ((rt2 % 3 == 0) && (rt2 * rt2 == n))
 		return (rt2);
 	else if (rt1 % 2 == 0)
-		return (_sqrt_recursion(rt1));
+		return (_sqrt_recursion(rt1)*2);
 	else if (rt2 % 3 == 0)
-		return (_sqrt_recursion(rt2));
+		return (_sqrt_recursion(rt2)*3);
 	return (-1);
 }
