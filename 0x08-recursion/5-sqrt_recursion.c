@@ -23,16 +23,12 @@ int _sqrt_recursion(int n)
 	else
 	{
 		rt = ((rt1 + (n / 2)) / 2);
-		while (rt < (n / 2))
+		if (rt * rt == n)
 		{
-			if (rt * rt == n)
-			{
-				if (rt % 2 == 0 || rt % 3 == 0)
-					return (rt);
-				else
-					continue;
-			}
-			rt1++;
+			if (rt % 2 == 0 || rt % 3 == 0)
+				return (rt);
+			else
+				continue;
 		}
 		return (-1);
 	}
