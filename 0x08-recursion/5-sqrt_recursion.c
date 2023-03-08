@@ -27,8 +27,6 @@ int _sqrt_recursion(int n)
 		{
 			if (rt % 2 == 0 || rt % 3 == 0)
 				return (rt);
-			else
-				continue;
 		}
 		return (-1);
 	}
