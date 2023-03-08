@@ -11,10 +11,10 @@
  */
 int _sqrt_recursion(int n)
 {
-	int rt1 = 2;
-	int rt;
+	int rt1 = n / 2;
+	int rt2 = n / 3;
 
-	if (n < 0 || n == 2)
+	if (n < 0)
 		return (-1);
 	else if (n == 0)
 		return (0);
@@ -22,12 +22,15 @@ int _sqrt_recursion(int n)
 		return (1);
 	else
 	{
-		rt = ((rt1 + (n / 2)) / 2);
-		if (rt * rt == n)
-		{
-			if (rt % 2 == 0 || rt % 3 == 0)
-				return (rt);
-		}
-		return (-1);
+		if ((rt % 2 == 0) && (rt1 * rt1 == n))
+			return (rt1);
+		else if (rt1 % 2 == 0)
+			return (_sqrt_recursion(rt1));
+		else if ((rt2 % 3 == 0 || rt2 * rt2 == n))
+			return (rt2);
+		else if (rt2 % 3 == 0)
+			return (_sqrt_recursion(rt2));
+		else
+			return (-1);
 	}
 }
