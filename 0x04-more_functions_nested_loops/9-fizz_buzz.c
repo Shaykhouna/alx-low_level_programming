@@ -37,5 +37,5 @@ int main(void)
 			_putchar(' ');
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 }
