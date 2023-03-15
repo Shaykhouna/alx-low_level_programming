@@ -29,5 +29,6 @@ char *str_concat(char *s1, char *s2)
 	}
 	strcpy(str, s1);
 	strcat(str, s2);
+	free(str);
 	return (str);
 }
