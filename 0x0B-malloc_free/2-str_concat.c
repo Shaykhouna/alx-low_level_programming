@@ -27,6 +27,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	str = s1 + s2;
+	str = &s1 + &s2;
 	return (str);
 }
