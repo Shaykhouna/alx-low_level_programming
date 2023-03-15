@@ -18,8 +18,12 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 	new = malloc(sizeof(*str) * CHAR_MAX);
+	if (new == NULL)
+	{
+		return (NULL);
+	}
 	strcpy(new, str);
-	if ((sizeof(new) < sizeof(str)) || (new == NULL))
+	if (sizeof(new) < sizeof(str))
 		return (NULL);
 	return (new);
 	free(new);
