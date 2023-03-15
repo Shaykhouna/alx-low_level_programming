@@ -17,13 +17,13 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	new = malloc(sizeof(*str) * CHAR_MAX);
+	new = malloc(sizeof(*str) * sizeof(char));
 	if (new == NULL)
 	{
 		return (NULL);
 	}
 	strcpy(new, str);
-	if (sizeof(new) != sizeof(str))
+	if (sizeof(new) < sizeof(str))
 		return (NULL);
 	return (new);
 	free(new);
