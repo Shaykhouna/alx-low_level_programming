@@ -23,7 +23,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	strcpy(new, str);
-	if (sizeof(new) < sizeof(str))
+	if (sizeof(new) != sizeof(str))
 		return (NULL);
 	return (new);
 	free(new);
