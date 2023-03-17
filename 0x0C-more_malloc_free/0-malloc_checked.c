@@ -8,7 +8,7 @@
  * This function allocates memory using malloc
  * @b: size to use
  *
- * Return: nothing
+ * Return: pointer to allocated memoryg
  */
 void *malloc_checked(unsigned int b)
 {
@@ -16,6 +16,5 @@ void *malloc_checked(unsigned int b)
 
 	if (check == NULL)
 		exit(98);
-	else
-		*check
+	return (check);
 }
